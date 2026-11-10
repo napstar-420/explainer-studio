@@ -7,10 +7,10 @@
     {
       "name": "explainer-studio",
       "source": "./",
-      "description": "Illustrated explainer video studio for Claude Code (Remotion)."
+      "description": "Illustrated explainer videos about UK brands for a British audience, made end to end with Claude Code and Remotion."
     }
   ],
   "metadata": {
-    "description": "Explainer Studio: make illustrated 9:16 explainer videos with Claude Code and Remotion."
+    "description": "Explainer Studio: make illustrated 9:16 explainer videos about UK brands with Claude Code and Remotion."
   }
 }
