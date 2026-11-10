@@ -15,5 +15,8 @@ Write `projects/<slug>/research.md`:
 - **Visual hooks**: concrete objects, places, packaging, slogans that can become metaphors.
 - **Sources**: numbered list (title, publisher, date, URL). Every fact above cites `[n]`.
 
-Use web search; prefer primary sources and reputable press. Mark anything single-sourced or
+Use the market pack's source list (`markets/<market>/market.md`): for the UK, check Companies House
+and The Gazette for dates, owners, administrations and whether the company still trades, and the
+BBC/national press and trade press for the story. Use web search; prefer primary sources and
+reputable press; two independent sources for why a business failed. Mark anything single-sourced or
 estimated as such. If facts conflict, note both. Do not invent quotes or figures.

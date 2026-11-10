@@ -4,7 +4,11 @@ This folder makes 9:16 illustrated explainer videos (90–110 s, English narrati
 analysed in `reference/`: flat illustration on cream paper, one visual metaphor per sentence,
 keyword titles, calm narrator. Claude Code drives the pipeline; Remotion renders.
 
-Read `reference/channel-formula.md` before writing a script, a beat sheet or scenes.
+**Audience: UK by default.** Each video has a market (`market:` in `brief.md`, else `market` in
+`studio.json`, default `uk`). Read `markets/<market>/market.md` (language, voice, sources, legal
+care, settings, metaphors, topics) and `reference/channel-formula.md` (story arcs, visual style)
+before writing a script, a beat sheet, drawings or scenes. The reference videos were made for a
+Pakistani audience: copy their structure and visual grammar, not their settings or wording.
 
 ## Pipeline (one folder per video: `projects/<slug>/`, assets in `public/<slug>/`)
 
@@ -34,6 +38,8 @@ typechecks scenes. `npm run studio` opens the Remotion preview.
   instead of one-off code in a scene when a motion will be reused.
 - SVGs: flat fills from `style.json` palette, ink outlines at `stroke` width, round joins, no
   gradients except subtle highlights, no text baked in unless it is a label on the object.
+- UK market: British English everywhere (narration, titles, labels), £/p, UK settings and
+  characters, UK legal care (defamation, logos, real people) as in `markets/uk/market.md`.
 - Facts need sources in `research.md`. Use generic figures for real people and your own or
   permitted logos.
 - Keys (`ELEVENLABS_API_KEY`, `OPENAI_API_KEY`) come from the environment; never write them to files.

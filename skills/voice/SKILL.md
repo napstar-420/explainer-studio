@@ -7,7 +7,9 @@ description: Create the narration audio, word timings and timed beats for an exp
 
 1. `node scripts/tts.mjs <slug>` (ElevenLabs if `ELEVENLABS_API_KEY` is set, else OpenAI if
    `OPENAI_API_KEY`, else silent with estimated timings). Force with `--provider`.
-   Voice: calm, warm male documentary narrator by default; follow the brief if it says otherwise.
+   The narrator comes from `markets/<market>/voice.json` (UK: British storyteller; ElevenLabs
+   voice ID and OpenAI voice/instructions there). Follow the brief if it asks for another voice
+   (set `ELEVENLABS_VOICE_ID` / `OPENAI_TTS_VOICE` or edit voice.json).
    If a key is missing, say so and continue with silent: the user can re-voice later.
 2. Real voice only: `python3 scripts/words.py <slug>` (faster-whisper word timestamps).
 3. `node scripts/timing.mjs <slug>`; fix any "not heard" warnings by correcting the cue phrase in

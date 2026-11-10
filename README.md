@@ -1,15 +1,30 @@
 # Explainer Studio for Claude Code
 
-Make 9:16 illustrated explainer videos (90–110 s, English narration) end to end with Claude Code:
-brand stories, "what happened to X?", success stories, how-it-works. Claude researches, writes the
+Make 9:16 illustrated explainer videos (90–110 s) about **UK brands for a British audience**, end
+to end with Claude Code: "whatever happened to…?", success stories, renames, how-it-works. Claude researches, writes the
 script, plans every beat as a visual metaphor, draws the SVG props, voices it, animates it in
 Remotion timed to the spoken words, renders it, and checks the result frame by frame.
 
-The style is distilled from three analysed reference videos (included under
-`skills/studio-setup/template/reference/`): flat illustration on cream paper, a hero object that
+The visual style is distilled from three analysed reference videos (included under
+`skills/studio-setup/template/reference/`; made for a Pakistani audience, so the UK market pack
+replaces their settings, wording, sources and topics): flat illustration on cream paper, a hero object that
 carries the story, keyword titles instead of captions, a calm narrator. Two looks ship:
 **storybook** (rich flat colour, one continuous camera) and **sketch** (line art, cuts between
 simple diagrams).
+
+## Markets
+
+The audience layer lives in **market packs** (`skills/studio-setup/template/markets/`):
+
+- **`uk` (default)**: British English and vocabulary, £/p, a British narrator, UK sources
+  (Companies House, The Gazette, BBC and national press, trade press), UK legal care
+  (defamation, logos, real people), British settings and characters (high street, corner shop,
+  terraced streets, tuck shop, retail park), UK hooks and story twists (administration, bought
+  out of administration, renamed), and a topic bank of UK brands.
+- **`pk`**: the Pakistani market the reference videos were made for.
+
+Pick per video with `--market`, or change the default in the workspace's `studio.json`.
+Copy `uk/` to add another market.
 
 ## Install
 
@@ -41,7 +56,8 @@ Or by hand: unzip, then
 ```
 /explainer-studio:studio-setup my-videos       # creates the Remotion workspace, installs, renders a test still
 cd my-videos && claude                         # open Claude Code in the workspace
-/explainer-studio:new-video What happened to the Walkman? --look sketch
+/explainer-studio:new-video Whatever happened to Woolworths? --look sketch
+/explainer-studio:new-video                     # no topic: suggests five from the UK topic bank
 ```
 
 Other skills: `analyze-reference <video>` (learn from a new reference video: frames, contact
@@ -53,8 +69,9 @@ skills `research`, `script`, `beats`, `assets`, `voice`, `scenes`, `qc`. Agents:
 
 - Node.js 18+ and ffmpeg.
 - Python 3 with `pip install faster-whisper` (word timings and reference transcription).
-- A TTS key in the environment for a real voice: `ELEVENLABS_API_KEY` (optional
-  `ELEVENLABS_VOICE_ID`) or `OPENAI_API_KEY` (optional `OPENAI_TTS_VOICE`). Without one, videos
+- A TTS key in the environment for a real voice: `ELEVENLABS_API_KEY` or `OPENAI_API_KEY`.
+  The British narrator is set in `markets/uk/voice.json` (ElevenLabs voice ID, OpenAI voice and
+  accent instructions); `ELEVENLABS_VOICE_ID` / `OPENAI_TTS_VOICE` override it. Without one, videos
   get a silent placeholder track with estimated timings, so everything else still works.
 - Remotion downloads a headless Chrome on first render; offline, set
   `REMOTION_BROWSER_EXECUTABLE` to an installed Chrome/Chromium.
@@ -71,6 +88,7 @@ skills/studio-setup/template/
                          Bubble, Checklist, LineChart, Arrow, Scale, Network, Counter, Strike,
                          Polaroid, Soundtrack (music ducked under speech)
   scripts/               tts.mjs, words.py, timing.mjs, validate.mjs, frames.sh, transcribe-reference.py
+  markets/               uk (default) and pk market packs: market.md + voice.json
   presets/               storybook.json, sketch.json (+ comparison)
   projects/demo*/        two working demo videos (one per look)
   reference/             channel-formula.md + 3 analysed videos (transcripts, breakdowns, sheets)

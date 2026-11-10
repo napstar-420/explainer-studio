@@ -1,0 +1,5 @@
+{
+  "language": "en",
+  "elevenlabs": { "voiceId": "JBFqnCBsd6RMkjVDRZzb", "model": "eleven_multilingual_v2", "note": "George: warm British male storyteller; swap for any British voice ID from your ElevenLabs voice library" },
+  "openai": { "model": "gpt-4o-mini-tts", "voice": "fable", "instructions": "British English narrator with a neutral Southern English accent. Calm, warm, slightly wry documentary storyteller. Unhurried, about 145 words per minute, short pauses between sentences. Pronounce prices as pounds and pence." }
+}

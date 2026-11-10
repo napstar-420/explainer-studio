@@ -1,7 +1,19 @@
 {
   "name": "explainer-studio",
-  "version": "1.0.0",
-  "description": "Make 9:16 illustrated explainer videos (brand stories, 'what happened to X', success stories) end to end with Claude Code and Remotion: research, script, beat sheet, SVG assets, voice-over, word-timed animation, render and visual QC. Ships a Remotion component library, two looks (storybook, sketch), demos, and three analysed reference videos.",
-  "author": { "name": "Explainer Studio" },
-  "keywords": ["video", "remotion", "explainer", "animation", "shorts", "reels"]
+  "version": "1.1.0",
+  "description": "Make 9:16 illustrated explainer videos about UK brands for a British audience ('whatever happened to\u2026', success stories) end to end with Claude Code and Remotion: research (Companies House, UK press), British-English script, beat sheet, SVG assets, British narrator, word-timed animation, render and visual QC. Market packs (UK default, Pakistan), two looks, a Remotion component library, demos and three analysed reference videos.",
+  "author": {
+    "name": "Explainer Studio"
+  },
+  "keywords": [
+    "video",
+    "remotion",
+    "explainer",
+    "animation",
+    "shorts",
+    "reels",
+    "uk",
+    "british",
+    "brands"
+  ]
 }

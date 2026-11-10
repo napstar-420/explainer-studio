@@ -13,5 +13,11 @@ For every sentence of the script with a fact (date, number, name, place, price, 
 3. Flag wording that overstates the source ("the biggest" from "one of the biggest"; an estimate
    stated as fact; a rumour stated as fact).
 
+4. Legal care for the market (`markets/<market>/market.md`; UK by default): flag anything that
+   could be defamatory (unattributed causes of failure, implied wrongdoing by a named person,
+   rumours stated as fact), and outdated "today" claims (check Companies House status for UK
+   companies where you can).
+5. Language: for the UK, flag American spelling or vocabulary and $ amounts.
+
 Return a table: sentence #, claim, verdict, source, suggested wording if needed. Then a one-line
 overall verdict. Do not edit files.

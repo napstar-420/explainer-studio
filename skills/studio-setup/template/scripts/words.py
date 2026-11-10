@@ -12,7 +12,7 @@ from faster_whisper import WhisperModel
 ap = argparse.ArgumentParser()
 ap.add_argument("slug")
 ap.add_argument("--model", default="small")
-ap.add_argument("--language", default="en")
+ap.add_argument("--language", default="en")  # English narration for every market
 a = ap.parse_args()
 
 audio = f"public/{a.slug}/voice.mp3"

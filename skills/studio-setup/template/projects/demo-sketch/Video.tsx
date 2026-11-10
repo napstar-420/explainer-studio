@@ -33,9 +33,9 @@ export const Video: React.FC = () => {
             ]} />
           </Scene>
           <Scene from={s3.from} to={s3.to}>
-            <Scale x={540} y={900} w={640} at={s3.at('free cookies') - s3.from} fromTilt={0} toTilt={1}
+            <Scale x={540} y={900} w={640} at={s3.at('free biscuits') - s3.from} fromTilt={0} toTilt={1}
               left={<Img src={A('lemonade')} style={{ width: 120, display: 'block', margin: '0 auto' }} />}
-              right={<Img src={A('cookie')} style={{ width: 140, display: 'block', margin: '0 auto' }} />} />
+              right={<Img src={A('biscuit')} style={{ width: 140, display: 'block', margin: '0 auto' }} />} />
           </Scene>
           <Scene from={s4.from} to={s4.to}>
             <Polaroid at={s4.at('happy memory') - s4.from} caption="Just a memory">
@@ -46,7 +46,7 @@ export const Video: React.FC = () => {
         </Boil>
         <Title text="One summer" sub="the busiest stand on the street" underline="summer" from={s1.from + 4} to={s1.to} />
         <Title text="Her secret" from={s2.from + 2} to={s2.to} />
-        <Title text="Free cookies" underline="free" from={s3.from + 2} to={s3.to} />
+        <Title text="Free biscuits" underline="free" from={s3.from + 2} to={s3.to} />
         <Soundtrack voice={t.voice} />
       </AbsoluteFill>
     </StyleProvider>

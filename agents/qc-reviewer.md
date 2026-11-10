@@ -15,6 +15,8 @@ Read every sheet (and single frames to zoom in). For each beat (by time range) c
   where a camera move or transition was planned; no stray object visible before it should be.
 - Consistent style across props; text legible at phone size.
 - Pacing: something changes at least every ~3 s.
+- Market (`markets/<market>/market.md`): titles and labels use the market's spelling and money
+  (UK: British spelling, £/p); settings and characters fit the audience; no copied logos.
 
 Return a list: time range, beat id, defect, severity (high/medium/low), suggested fix. End with
 an overall verdict. Do not edit files.

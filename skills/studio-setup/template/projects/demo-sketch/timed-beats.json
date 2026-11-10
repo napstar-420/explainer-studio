@@ -1,7 +1,7 @@
 {
  "slug": "demo-sketch",
  "fps": 30,
- "durationSec": 22.52,
+ "durationSec": 22.57,
  "voice": "demo-sketch/voice.mp3",
  "words": [
   {
@@ -100,7 +100,7 @@
    "e": 9.68
   },
   {
-   "w": "prices,",
+   "w": "prices",
    "s": 9.73,
    "e": 10.22
   },
@@ -170,49 +170,49 @@
    "e": 16.74
   },
   {
-   "w": "cookies.",
+   "w": "biscuits.",
    "s": 16.79,
-   "e": 17.34
+   "e": 17.39
   },
   {
    "w": "Today,",
-   "s": 17.99,
-   "e": 18.42
+   "s": 18.04,
+   "e": 18.47
   },
   {
    "w": "the",
-   "s": 18.47,
-   "e": 18.79
+   "s": 18.52,
+   "e": 18.85
   },
   {
    "w": "stand",
-   "s": 18.85,
-   "e": 19.28
+   "s": 18.9,
+   "e": 19.33
   },
   {
    "w": "is",
-   "s": 19.33,
-   "e": 19.6
+   "s": 19.38,
+   "e": 19.65
   },
   {
    "w": "just",
-   "s": 19.65,
-   "e": 20.03
+   "s": 19.7,
+   "e": 20.08
   },
   {
    "w": "a",
-   "s": 20.08,
-   "e": 20.29
+   "s": 20.13,
+   "e": 20.35
   },
   {
    "w": "happy",
-   "s": 20.35,
-   "e": 20.78
+   "s": 20.4,
+   "e": 20.83
   },
   {
    "w": "memory.",
-   "s": 20.83,
-   "e": 21.32
+   "s": 20.89,
+   "e": 21.37
   }
  ],
  "beats": [
@@ -232,7 +232,7 @@
   },
   {
    "id": "s02",
-   "line": "Her secret was simple: fresh lemons, fair prices, and a friendly smile.",
+   "line": "Her secret was simple: fresh lemons, fair prices and a friendly smile.",
    "title": [
     "Her secret"
    ],
@@ -247,27 +247,27 @@
   },
   {
    "id": "s03",
-   "line": "Then the stand next door started giving away free cookies.",
+   "line": "Then the stand next door started giving away free biscuits.",
    "title": [
-    "Free cookies"
+    "Free biscuits"
    ],
    "underline": "free",
    "startSec": 12.450000000000001,
-   "endSec": 17.79,
+   "endSec": 17.84,
    "cues": {
     "Then the stand": 12.65,
-    "free cookies": 16.36
+    "free biscuits": 16.36
    }
   },
   {
    "id": "s04",
    "line": "Today, the stand is just a happy memory.",
    "title": [],
-   "startSec": 17.79,
-   "endSec": 22.52,
+   "startSec": 17.84,
+   "endSec": 22.57,
    "cues": {
-    "Today, the stand": 17.99,
-    "happy memory": 20.35
+    "Today, the stand": 18.04,
+    "happy memory": 20.4
    }
   }
  ]

@@ -1,17 +1,20 @@
 ---
 name: new-video
 description: Make a complete 9:16 illustrated explainer video (brand history, "what happened to X", "X success story", how something works) from a topic, end to end with review gates. Use when the user asks to make, create or produce an explainer video, a reel/short in the reference channel style, or runs /new-video.
-argument-hint: "<topic> [--look storybook|sketch] [--arc decline|success|explain] [--seconds 100]"
+argument-hint: "<topic> [--market uk|pk] [--look storybook|sketch] [--arc decline|success|explain] [--seconds 100]"
 ---
 
 # Make an explainer video
 
 Run inside an Explainer Studio workspace (a folder with `studio.json`). If there is none, run the
-`studio-setup` skill first. Read the workspace `CLAUDE.md` and `reference/channel-formula.md`.
+`studio-setup` skill first. Read the workspace `CLAUDE.md`, `reference/channel-formula.md` and the
+market pack `markets/<market>/market.md` (market from `--market`, else `studio.json`, default `uk`).
+If no topic is given, suggest five from the market pack's topic bank.
 
 Parse `$ARGUMENTS`: topic, look (default storybook), arc (pick from the topic: decline for "what
 happened to…", success for growth stories, explain otherwise), target seconds (default 100).
-Make a slug (kebab-case, ≤ 30 chars) and `projects/<slug>/brief.md` with these choices.
+Make a slug (kebab-case, ≤ 30 chars) and `projects/<slug>/brief.md` with these choices, its second
+line being `market: <market>` (tts.mjs reads it to pick the narrator).
 
 Track the stages with a task list. Stop at each **GATE**, show the artefact briefly, and wait for
 the user's go-ahead or edits (skip gates only if the user said to run without stopping).

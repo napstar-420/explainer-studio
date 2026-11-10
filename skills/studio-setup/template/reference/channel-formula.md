@@ -12,6 +12,10 @@ Distilled from three 90–105 s vertical brand-history explainers by one channel
 | Speaking rate | 137 wpm, 22 lines | 158 wpm, 32 short lines | 125 wpm, 13 long sentences |
 | Title changes | ~1 per line (~4.4 s) | ~1 per line (~2.6 s) | 2–6 per sentence (~2 s) |
 
+These references were made for a **Pakistani audience**. The story arcs, pacing, title rules,
+visual grammar and metaphor ideas transfer to any market; the settings, characters, wording,
+sources and topics come from the market pack (`markets/uk/market.md` by default).
+
 Each folder here (`bp-spacer/`, `oye-hoye/`, `jazzcash/`) holds the timed English transcript with
 the Urdu original, a shot-by-shot breakdown (JSON) and timestamped contact sheets.
 

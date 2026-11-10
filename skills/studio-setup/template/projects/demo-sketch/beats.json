@@ -4,8 +4,8 @@
   "fps": 30,
   "beats": [
     { "id": "s01", "line": "In one summer, Mia's lemonade stand became the busiest on the street.", "title": ["One summer"], "underline": "summer", "metaphor": "sales line chart shoots up with the lemonade cup riding it", "props": ["lemonade"], "motion": [{ "use": "LineChart", "at": "became the busiest" }] },
-    { "id": "s02", "line": "Her secret was simple: fresh lemons, fair prices, and a friendly smile.", "title": ["Her secret"], "metaphor": "kid shouts in a speech bubble; checklist ticks in", "props": ["kid"], "motion": [{ "use": "Checklist", "at": "fresh lemons" }, { "use": "Checklist", "at": "fair prices" }, { "use": "Checklist", "at": "friendly smile" }] },
-    { "id": "s03", "line": "Then the stand next door started giving away free cookies.", "title": ["Free cookies"], "underline": "free", "metaphor": "balance scale: lemonade vs cookie, tips toward the cookie", "props": ["lemonade", "cookie"], "motion": [{ "use": "Scale", "at": "free cookies" }] },
+    { "id": "s02", "line": "Her secret was simple: fresh lemons, fair prices and a friendly smile.", "title": ["Her secret"], "metaphor": "kid shouts in a speech bubble; checklist ticks in", "props": ["kid"], "motion": [{ "use": "Checklist", "at": "fresh lemons" }, { "use": "Checklist", "at": "fair prices" }, { "use": "Checklist", "at": "friendly smile" }] },
+    { "id": "s03", "line": "Then the stand next door started giving away free biscuits.", "title": ["Free biscuits"], "underline": "free", "metaphor": "balance scale: lemonade vs biscuit, tips toward the biscuit", "props": ["lemonade", "biscuit"], "motion": [{ "use": "Scale", "at": "free biscuits" }] },
     { "id": "s04", "line": "Today, the stand is just a happy memory.", "title": [], "metaphor": "the scene freezes into a taped polaroid", "props": ["lemonade"], "motion": [{ "use": "Polaroid", "at": "happy memory" }] }
   ]
 }

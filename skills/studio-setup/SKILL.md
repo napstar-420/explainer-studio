@@ -25,6 +25,8 @@ directory). Copy it, install, and prove a render works.
    then `npx remotion still src/index.ts demo out/demo.png --frame=90`. If Chrome can't be
    downloaded (offline/locked-down), find an installed Chrome/Chromium and set
    `REMOTION_BROWSER_EXECUTABLE` to it, then retry. Look at `out/demo.png`.
-6. Tell the user: where the workspace is, what passed or is missing, and how to start:
+6. Market: the workspace defaults to the UK (`"market": "uk"` in `studio.json`); ask only if the
+   user mentioned another audience, and set it.
+7. Tell the user: where the workspace is, what passed or is missing, and how to start:
    `/explainer-studio:new-video <topic>` (run Claude Code from the workspace folder so its
    CLAUDE.md loads), plus `npm run studio` for the live preview.

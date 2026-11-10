@@ -201,7 +201,7 @@ export const Counter: React.FC<{ x: number; y: number; from: number; to: number;
   const s = useStyle();
   if (frame < from) return null;
   const v = Math.round(start + (end - start) * progress(frame, from, to, 'out'));
-  return <div style={{ position: 'absolute', left: x, top: y, transform: 'translate(-50%, -50%)', fontFamily: s.titleFont, fontWeight: 800, fontSize: size, color: s.palette.ink, zIndex: 10 }}>{prefix}{v.toLocaleString('en-US')}{suffix}</div>;
+  return <div style={{ position: 'absolute', left: x, top: y, transform: 'translate(-50%, -50%)', fontFamily: s.titleFont, fontWeight: 800, fontSize: size, color: s.palette.ink, zIndex: 10 }}>{prefix}{v.toLocaleString('en-GB')}{suffix}</div>;
 };
 
 /** Freezes the scene into a taped polaroid that shrinks and tilts: the "now it's a memory" ending. Screen space. */

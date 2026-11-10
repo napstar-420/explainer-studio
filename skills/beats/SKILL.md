@@ -5,8 +5,10 @@ description: Turn an explainer script into projects/<slug>/beats.json (one beat 
 
 # Beat sheet
 
-Read `script.md`, `reference/channel-formula.md` and one reference `breakdown.json` for the same
-look. Write `projects/<slug>/beats.json` matching `scripts/schemas.mjs`:
+Read `script.md`, `markets/<market>/market.md` (settings, characters, extra metaphors),
+`reference/channel-formula.md` and one reference `breakdown.json` for the same look. Settings
+and props come from the market (UK: high street, corner shop, terraced streets, retail park…),
+not from the reference videos. Write `projects/<slug>/beats.json` matching `scripts/schemas.mjs`:
 
 ```json
 { "slug": "...", "title": "...", "fps": 30, "beats": [ {
@@ -21,7 +23,7 @@ look. Write `projects/<slug>/beats.json` matching `scripts/schemas.mjs`:
 
 - `line` is exactly the narration (punctuation included). Every `cue`/`at` is a phrase copied
   from that line: it is when the event happens.
-- Titles: 1–4 words from the line; add a second line by putting it as the next array item.
+- Titles: 1–4 words from the line, in the market's spelling (UK: "Favourite flavour", "£1.99"); add a second line by putting it as the next array item.
 - `props`: kebab-case ids, reused across beats (the hero especially). Aim for 25–45 unique props.
 - `motion.use` names a `src/lib` component (World camera, FollowPath, Orbit, Swarm, YearDial,
   Burst, DrawCircle, SmokeWipe, Clipping, Scene, Bubble, Checklist, LineChart, Arrow, Scale,

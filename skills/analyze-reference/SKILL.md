@@ -23,4 +23,6 @@ Output folder: `reference/<name>/`.
 4. Update `reference/channel-formula.md`: add a column to the comparison table, new arc steps,
    new metaphors (idea → metaphor → component), rules that changed. If a metaphor needs a new
    motion, note `New:<Component>` for the `scenes` skill.
+   Note the reference's market; if it is a new market, offer to start a market pack for it
+   (`markets/<code>/market.md` + `voice.json`, copied from `uk/`).
 5. Tell the user what is new compared with the existing references.

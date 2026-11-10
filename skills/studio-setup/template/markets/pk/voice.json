@@ -1,0 +1,5 @@
+{
+  "language": "en",
+  "elevenlabs": { "voiceId": "JBFqnCBsd6RMkjVDRZzb", "model": "eleven_multilingual_v2" },
+  "openai": { "model": "gpt-4o-mini-tts", "voice": "onyx", "instructions": "Calm, warm documentary storyteller. Conversational, unhurried, about 140 words per minute, short pauses between sentences." }
+}

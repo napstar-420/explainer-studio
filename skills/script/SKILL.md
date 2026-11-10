@@ -5,7 +5,8 @@ description: Write the narration script for an explainer video from research.md,
 
 # Script
 
-Read `reference/channel-formula.md` (arcs, writing rules) and two of the reference transcripts in
+Read `markets/<market>/market.md` (audience, language, hooks, arcs, legal care) and
+`reference/channel-formula.md` (arcs, writing rules) and two of the reference transcripts in
 `reference/*/transcript.md` that match the arc. Write `projects/<slug>/script.md`:
 
 1. Front matter lines: `arc:`, `look:`, `target_seconds:`, `words:` (count), `wpm: 130–150`.
@@ -16,5 +17,6 @@ Read `reference/channel-formula.md` (arcs, writing rules) and two of the referen
    library where it fits) and `[n]` source refs for its facts.
 
 Rules: open with "you" or a striking number; turn with "But…"; concrete nouns, years and names;
-end by mirroring the hook; English, plain, spoken rhythm (read it aloud in your head). No claim
-without a source in research.md.
+end by mirroring the hook; plain, spoken rhythm (read it aloud in your head). Write in the market's
+language: for the UK, British spelling and vocabulary, £/p, dry understated tone, no
+Americanisms. Attribute causes and opinions; no claim without a source in research.md.
