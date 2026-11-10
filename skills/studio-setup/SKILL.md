@@ -16,10 +16,14 @@ directory). Copy it, install, and prove a render works.
    `git init` if it is not already in a repo.
 3. Check tools and report each as ok / missing with the install hint:
    - `node -v` ≥ 18 (needed), `ffmpeg -version` (needed for audio, QC sheets),
-   - `python3 -c "import faster_whisper"` (word timings; `pip install faster-whisper`),
-   - a TTS key in the environment: `ELEVENLABS_API_KEY` or `OPENAI_API_KEY` (optional; without
-     one, voices are silent placeholders with estimated timings). Check only whether the
-     variable is set; never print its value.
+   - `python3 -c "import faster_whisper"` (word timings; `pip3 install faster-whisper`; optional
+     if VoiceStudio is used for speech-to-text),
+   - voice providers (at least one for a real voice; without either, voices are silent
+     placeholders with estimated timings):
+     - ElevenLabs: whether `ELEVENLABS_API_KEY` is set. Check only that it is set; never print it.
+     - VoiceStudio: `curl -s -m 2 ${VOICESTUDIO_URL:-http://localhost:3900}/health`. If it answers,
+       run `node scripts/tts.mjs --list-voices voicestudio` and help the user put a saved British
+       voice's id in `markets/uk/voice.json` → `voicestudio.voice`.
 4. `npm install` in the workspace.
 5. Prove it: `node scripts/tts.mjs demo --provider silent && node scripts/timing.mjs demo`,
    then `npx remotion still src/index.ts demo out/demo.png --frame=90`. If Chrome can't be

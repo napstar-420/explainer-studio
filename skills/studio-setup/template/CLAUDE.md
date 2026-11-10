@@ -16,8 +16,9 @@ Pakistani audience: copy their structure and visual grammar, not their settings 
 2. `beats.json`: one beat per sentence; `line` is the exact narration; cue phrases are words from it.
 3. `style.json`: copy `presets/storybook.json` or `presets/sketch.json`.
 4. Assets: one SVG per prop in `public/<slug>/assets/<prop>.svg`, named as in `beats.json` `props`.
-5. Voice: `node scripts/tts.mjs <slug>` → `python3 scripts/words.py <slug>` (skip words.py for
-   `--provider silent`, which writes estimated timings).
+5. Voice: `node scripts/tts.mjs <slug>` (ElevenLabs or VoiceStudio) → `node scripts/words.mjs <slug>`
+   (local Whisper by default, or `--provider voicestudio`). Skip words.mjs after `--provider silent`,
+   which writes estimated timings.
 6. `node scripts/timing.mjs <slug>` → `timed-beats.json`.
 7. `projects/<slug>/Video.tsx` composes `src/lib` components; register it in `src/registry.ts`.
 8. Draft: `npx remotion render src/index.ts <slug> out/<slug>-draft.mp4 --scale=0.5`.
@@ -42,5 +43,6 @@ typechecks scenes. `npm run studio` opens the Remotion preview.
   characters, UK legal care (defamation, logos, real people) as in `markets/uk/market.md`.
 - Facts need sources in `research.md`. Use generic figures for real people and your own or
   permitted logos.
-- Keys (`ELEVENLABS_API_KEY`, `OPENAI_API_KEY`) come from the environment; never write them to files.
+- Voice providers: ElevenLabs (`ELEVENLABS_API_KEY`) and VoiceStudio (local app, `VOICESTUDIO_URL`,
+  optional `OMNIVOICE_API_KEY`). Keys come from the environment; never write them to files.
 - In a locked-down environment set `REMOTION_BROWSER_EXECUTABLE` to an installed Chrome/Chromium.

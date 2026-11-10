@@ -68,11 +68,17 @@ skills `research`, `script`, `beats`, `assets`, `voice`, `scenes`, `qc`. Agents:
 ## Requirements
 
 - Node.js 18+ and ffmpeg.
-- Python 3 with `pip install faster-whisper` (word timings and reference transcription).
-- A TTS key in the environment for a real voice: `ELEVENLABS_API_KEY` or `OPENAI_API_KEY`.
-  The British narrator is set in `markets/uk/voice.json` (ElevenLabs voice ID, OpenAI voice and
-  accent instructions); `ELEVENLABS_VOICE_ID` / `OPENAI_TTS_VOICE` override it. Without one, videos
-  get a silent placeholder track with estimated timings, so everything else still works.
+- Python 3 with `pip3 install faster-whisper` for free, offline word timings and reference
+  transcription (optional if you use VoiceStudio for speech-to-text).
+- A voice provider for real narration (without one, videos get a silent placeholder track with
+  estimated timings, so everything else still works):
+  - **ElevenLabs**: set `ELEVENLABS_API_KEY`. Voice in `markets/uk/voice.json` → `elevenlabs.voiceId`
+    (or `ELEVENLABS_VOICE_ID`).
+  - **VoiceStudio** (https://github.com/debpalash/voicestudio, runs locally): open the app; the
+    studio finds it at `http://localhost:3900` (`VOICESTUDIO_URL` to change, `OMNIVOICE_API_KEY` if
+    protected). Pick a saved voice with `node scripts/tts.mjs --list-voices voicestudio` and put
+    its id in `markets/uk/voice.json` → `voicestudio.voice`. VoiceStudio can also do the
+    speech-to-text: `node scripts/words.mjs <slug> --provider voicestudio`.
 - Remotion downloads a headless Chrome on first render; offline, set
   `REMOTION_BROWSER_EXECUTABLE` to an installed Chrome/Chromium.
 
@@ -87,7 +93,8 @@ skills/studio-setup/template/
                          Orbit, Swarm, Burst, DrawCircle, YearDial, SmokeWipe, Clipping, Scene, Boil,
                          Bubble, Checklist, LineChart, Arrow, Scale, Network, Counter, Strike,
                          Polaroid, Soundtrack (music ducked under speech)
-  scripts/               tts.mjs, words.py, timing.mjs, validate.mjs, frames.sh, transcribe-reference.py
+  scripts/               tts.mjs (ElevenLabs / VoiceStudio), words.mjs (Whisper / VoiceStudio), timing.mjs,
+                         validate.mjs, frames.sh, transcribe-reference.py, transcribe-voicestudio.mjs
   markets/               uk (default) and pk market packs: market.md + voice.json
   presets/               storybook.json, sketch.json (+ comparison)
   projects/demo*/        two working demo videos (one per look)

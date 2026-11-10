@@ -1,5 +1,13 @@
 {
   "language": "en",
-  "elevenlabs": { "voiceId": "JBFqnCBsd6RMkjVDRZzb", "model": "eleven_multilingual_v2" },
-  "openai": { "model": "gpt-4o-mini-tts", "voice": "onyx", "instructions": "Calm, warm documentary storyteller. Conversational, unhurried, about 140 words per minute, short pauses between sentences." }
+  "elevenlabs": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2"
+  },
+  "voicestudio": {
+    "voice": "",
+    "model": "tts-1",
+    "instructions": "Calm, warm documentary storyteller, conversational and unhurried, short pauses between sentences.",
+    "note": "Set voice to a saved VoiceStudio voice profile id or name (node scripts/tts.mjs --list-voices voicestudio). instructions are used by engines that support them."
+  }
 }

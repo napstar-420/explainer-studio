@@ -13,7 +13,8 @@ Output folder: `reference/<name>/`.
    timestamped sheets). Detect hard cuts:
    `ffmpeg -i <video> -vf "select='gt(scene,0.3)',showinfo" -an -f null - 2>&1 | grep pts_time`.
 2. Transcribe: `python3 scripts/transcribe-reference.py <video> reference/<name>` (original
-   language); if not English, also with `--translate`, then write your own faithful English line
+   language), or `node scripts/transcribe-voicestudio.mjs <video> reference/<name>` when the
+   VoiceStudio app is running; if not English, also with `--translate`, then write your own faithful English line
    by line from the original (Whisper's translation is a draft only). Save
    `reference/<name>/transcript.md`: full English script; table of lines with times, English,
    on-screen text, original. Compute words, speaking wpm, lines, average line length.

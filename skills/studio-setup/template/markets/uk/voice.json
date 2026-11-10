@@ -1,5 +1,14 @@
 {
   "language": "en",
-  "elevenlabs": { "voiceId": "JBFqnCBsd6RMkjVDRZzb", "model": "eleven_multilingual_v2", "note": "George: warm British male storyteller; swap for any British voice ID from your ElevenLabs voice library" },
-  "openai": { "model": "gpt-4o-mini-tts", "voice": "fable", "instructions": "British English narrator with a neutral Southern English accent. Calm, warm, slightly wry documentary storyteller. Unhurried, about 145 words per minute, short pauses between sentences. Pronounce prices as pounds and pence." }
+  "elevenlabs": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "model": "eleven_multilingual_v2",
+    "note": "George: warm British male storyteller; swap for any British voice ID from your ElevenLabs voice library"
+  },
+  "voicestudio": {
+    "voice": "",
+    "model": "tts-1",
+    "instructions": "British English narrator, neutral Southern English accent. Calm, warm, slightly wry documentary storyteller, unhurried, short pauses between sentences.",
+    "note": "Set voice to a saved VoiceStudio voice profile id or name (node scripts/tts.mjs --list-voices voicestudio). instructions are used by engines that support them."
+  }
 }
