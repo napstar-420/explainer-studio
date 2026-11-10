@@ -1,13 +1,16 @@
 {
   "language": "en",
+  "provider": "",
   "elevenlabs": {
     "voiceId": "JBFqnCBsd6RMkjVDRZzb",
-    "model": "eleven_multilingual_v2"
+    "model": "eleven_multilingual_v2",
+    "note": "voiceId default is George (warm British storyteller); pick another with /explainer-studio:pick-voice or `node scripts/set-voice.mjs`."
   },
   "voicestudio": {
     "voice": "",
     "model": "tts-1",
     "instructions": "Calm, warm documentary storyteller, conversational and unhurried, short pauses between sentences.",
-    "note": "Set voice to a saved VoiceStudio voice profile id or name (node scripts/tts.mjs --list-voices voicestudio). instructions are used by engines that support them."
-  }
+    "note": "voice = a saved VoiceStudio voice profile id or name, set by /explainer-studio:pick-voice or `node scripts/set-voice.mjs`. instructions are used by engines that support them."
+  },
+  "note": "provider + voice are set by `node scripts/set-voice.mjs` or /explainer-studio:pick-voice"
 }

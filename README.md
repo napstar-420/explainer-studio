@@ -60,7 +60,11 @@ cd my-videos && claude                         # open Claude Code in the workspa
 /explainer-studio:new-video                     # no topic: suggests five from the UK topic bank
 ```
 
-Other skills: `analyze-reference <video>` (learn from a new reference video: frames, contact
+Keep a workspace current after a plugin update with one command:
+`/explainer-studio:update-studio` (replaces the studio's tools, keeps your projects, assets and
+chosen voices, backs up anything it replaces in `.studio-backup/`).
+
+Other skills: `pick-voice`, `analyze-reference <video>` (learn from a new reference video: frames, contact
 sheets, transcript, breakdown, updates the formula), `revise <slug> <change>`, and the stage
 skills `research`, `script`, `beats`, `assets`, `voice`, `scenes`, `qc`. Agents:
 `fact-checker`, `svg-artist`, `qc-reviewer`.
@@ -72,13 +76,13 @@ skills `research`, `script`, `beats`, `assets`, `voice`, `scenes`, `qc`. Agents:
   transcription (optional if you use VoiceStudio for speech-to-text).
 - A voice provider for real narration (without one, videos get a silent placeholder track with
   estimated timings, so everything else still works):
-  - **ElevenLabs**: set `ELEVENLABS_API_KEY`. Voice in `markets/uk/voice.json` → `elevenlabs.voiceId`
-    (or `ELEVENLABS_VOICE_ID`).
+  - **ElevenLabs**: set `ELEVENLABS_API_KEY`.
   - **VoiceStudio** (https://github.com/debpalash/voicestudio, runs locally): open the app; the
     studio finds it at `http://localhost:3900` (`VOICESTUDIO_URL` to change, `OMNIVOICE_API_KEY` if
-    protected). Pick a saved voice with `node scripts/tts.mjs --list-voices voicestudio` and put
-    its id in `markets/uk/voice.json` → `voicestudio.voice`. VoiceStudio can also do the
-    speech-to-text: `node scripts/words.mjs <slug> --provider voicestudio`.
+    protected). It can also do the speech-to-text (`node scripts/words.mjs <slug> --provider voicestudio`).
+
+  Pick the narrator from a list with `/explainer-studio:pick-voice` (setup runs it for you), or in
+  a terminal `node scripts/set-voice.mjs` (numbered menu, `p<number>` plays a preview).
 - Remotion downloads a headless Chrome on first render; offline, set
   `REMOTION_BROWSER_EXECUTABLE` to an installed Chrome/Chromium.
 
@@ -86,14 +90,16 @@ skills `research`, `script`, `beats`, `assets`, `voice`, `scenes`, `qc`. Agents:
 
 ```
 .claude-plugin/          plugin + marketplace manifests
-skills/                  new-video (orchestrator), studio-setup, stage skills, analyze-reference, revise
+skills/                  new-video (orchestrator), studio-setup, update-studio, pick-voice, stage skills,
+                         analyze-reference, revise
 agents/                  fact-checker, svg-artist, qc-reviewer
 skills/studio-setup/template/
   src/lib/               Remotion components: World + camera, Title, Svg/Place, FollowPath, Flame,
                          Orbit, Swarm, Burst, DrawCircle, YearDial, SmokeWipe, Clipping, Scene, Boil,
                          Bubble, Checklist, LineChart, Arrow, Scale, Network, Counter, Strike,
                          Polaroid, Soundtrack (music ducked under speech)
-  scripts/               tts.mjs (ElevenLabs / VoiceStudio), words.mjs (Whisper / VoiceStudio), timing.mjs,
+  scripts/               tts.mjs (ElevenLabs / VoiceStudio), set-voice.mjs (voice picker), words.mjs
+                         (Whisper / VoiceStudio), timing.mjs,
                          validate.mjs, frames.sh, transcribe-reference.py, transcribe-voicestudio.mjs
   markets/               uk (default) and pk market packs: market.md + voice.json
   presets/               storybook.json, sketch.json (+ comparison)

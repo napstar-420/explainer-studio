@@ -16,7 +16,8 @@ Pakistani audience: copy their structure and visual grammar, not their settings 
 2. `beats.json`: one beat per sentence; `line` is the exact narration; cue phrases are words from it.
 3. `style.json`: copy `presets/storybook.json` or `presets/sketch.json`.
 4. Assets: one SVG per prop in `public/<slug>/assets/<prop>.svg`, named as in `beats.json` `props`.
-5. Voice: `node scripts/tts.mjs <slug>` (ElevenLabs or VoiceStudio) → `node scripts/words.mjs <slug>`
+5. Voice: the narrator is picked once per market (`node scripts/set-voice.mjs` or
+   `/explainer-studio:pick-voice`); `node scripts/tts.mjs <slug>` (ElevenLabs or VoiceStudio) → `node scripts/words.mjs <slug>`
    (local Whisper by default, or `--provider voicestudio`). Skip words.mjs after `--provider silent`,
    which writes estimated timings.
 6. `node scripts/timing.mjs <slug>` → `timed-beats.json`.

@@ -11,6 +11,10 @@ Run inside an Explainer Studio workspace (a folder with `studio.json`). If there
 market pack `markets/<market>/market.md` (market from `--market`, else `studio.json`, default `uk`).
 If no topic is given, suggest five from the market pack's topic bank.
 
+Workspace up to date? Run `node "<this skill's base dir>/../update-studio/update.mjs"
+"<this skill's base dir>/../studio-setup/template" . --check`; if `updateAvailable` is true, run
+the `update-studio` skill first (one step, keeps the user's work).
+
 Parse `$ARGUMENTS`: topic, look (default storybook), arc (pick from the topic: decline for "what
 happened to…", success for growth stories, explain otherwise), target seconds (default 100).
 Make a slug (kebab-case, ≤ 30 chars) and `projects/<slug>/brief.md` with these choices, its second

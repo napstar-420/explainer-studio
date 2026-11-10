@@ -4,5 +4,6 @@
   "width": 1080,
   "height": 1920,
   "fps": 30,
-  "market": "uk"
+  "market": "uk",
+  "templateVersion": "1.3.0"
 }

@@ -5,11 +5,14 @@ description: Create the narration audio, word timings and timed beats for an exp
 
 # Voice and timing
 
+0. `node scripts/set-voice.mjs --status --json`. If `chosen` is false and a provider is
+   available, run the `pick-voice` skill first (the user picks from a list); don't guess a voice.
+
 1. `node scripts/tts.mjs <slug>`: ElevenLabs if `ELEVENLABS_API_KEY` is set, else VoiceStudio if its
    backend answers (`VOICESTUDIO_URL`, default `http://localhost:3900`; `OMNIVOICE_API_KEY` if it is
    protected), else silent with estimated timings. Force with `--provider elevenlabs|voicestudio|silent`.
-   VoiceStudio needs a saved voice: `node scripts/tts.mjs --list-voices voicestudio`, then set
-   `voicestudio.voice` in the market's voice.json (or `VOICESTUDIO_VOICE`).
+   It uses the provider and voice saved by `pick-voice`. If it exits with `NO_VOICE_CHOSEN`, run
+   the `pick-voice` skill and retry.
    The narrator comes from `markets/<market>/voice.json` (UK: British storyteller; the ElevenLabs
    voice ID and the VoiceStudio voice profile there). Follow the brief if it asks for another voice
    (set `ELEVENLABS_VOICE_ID` / `VOICESTUDIO_VOICE` or edit voice.json).
