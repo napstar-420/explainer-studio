@@ -1,0 +1,9 @@
+{
+  "look": "sketch",
+  "palette": { "paper": "#f3f0e8", "ink": "#1d1c1a", "accent": "#c4744a", "accent2": "#e3b84a", "muted": ["#d6d2c9", "#b9b4aa", "#a39d92", "#8e887d"] },
+  "stroke": 4,
+  "titleFont": "Inter, \"Helvetica Neue\", Arial, sans-serif",
+  "titleWeight": 800,
+  "titleColor": "#111111",
+  "underlineColor": "#1d1c1a"
+}

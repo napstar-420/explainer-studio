@@ -1,0 +1,358 @@
+{
+  "title": "What really happened to Oye Hoye? (English rebuild reference)",
+  "summary": "A 94 s vertical brand-history explainer from the same channel as video 1, in a sketchier, more diagrammatic look: monochrome hand-drawn line art on cream paper with only the brand packets in colour. Each line gets its own simple diagram or metaphor (staircase, map with arrows, balance scale, line chart, shelf, network, switch, balloon) and a cut, so it moves faster than video 1. Arc: peak and vanish (hook), title, origin, positioning, marketing blitz, boom, competitor's counter-attack, rumours, self-inflicted causes, decline, lesson, today, memory.",
+  "format": {
+    "aspectRatio": "9:16",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "durationSec": 93.9
+  },
+  "sections": [
+    {
+      "label": "Hook",
+      "startSec": 0,
+      "endSec": 10,
+      "purpose": "Peak then vanish: climbing to No. 1, then disappears."
+    },
+    {
+      "label": "Title",
+      "startSec": 10,
+      "endSec": 14,
+      "purpose": "Name the subject."
+    },
+    {
+      "label": "Origin",
+      "startSec": 14,
+      "endSec": 30,
+      "purpose": "Year, company, factory, machines, quality, name and positioning."
+    },
+    {
+      "label": "Rise",
+      "startSec": 30,
+      "endSec": 41,
+      "purpose": "Ambassador, ads everywhere, sales boom, leader dips."
+    },
+    {
+      "label": "Conflict",
+      "startSec": 41,
+      "endSec": 63,
+      "purpose": "Competitor's trade deals and shelf space; rumours."
+    },
+    {
+      "label": "Own goals",
+      "startSec": 63,
+      "endSec": 83,
+      "purpose": "Weak distribution, missed expectations, marketing stopped, forgotten."
+    },
+    {
+      "label": "Lesson + today",
+      "startSec": 83,
+      "endSec": 93.9,
+      "purpose": "Hype is easy, keeping it is hard; still in a few shops; a memory."
+    }
+  ],
+  "shots": [
+    {
+      "index": 0,
+      "startSec": 0,
+      "endSec": 6,
+      "visual": "Hand-drawn staircase chart; the brown chip packet (with cartoon eyes) hops up step by step toward a '1' flag on the top step.",
+      "onScreenText": "2016 / Pakistan's No. 1?",
+      "camera": "static",
+      "transition": "opening",
+      "make": "motion_graphic",
+      "notes": "Steps = rise metaphor; packet hop = keyframed jumps."
+    },
+    {
+      "index": 1,
+      "startSec": 6,
+      "endSec": 10,
+      "visual": "The packet fades to a ghost outline one step short of the flag; a question mark draws in.",
+      "onScreenText": "Then... gone",
+      "camera": "static",
+      "transition": "in place",
+      "make": "motion_graphic",
+      "notes": "Fade-to-outline = 'vanished'."
+    },
+    {
+      "index": 2,
+      "startSec": 10,
+      "endSec": 14,
+      "visual": "Packet alone, centred; title with underline drawing in, smaller subtitle under it.",
+      "onScreenText": "Oye Hoye / the story of a chip",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Title card."
+    },
+    {
+      "index": 3,
+      "startSec": 14,
+      "endSec": 19,
+      "visual": "Outline map of the region; the country fills grey, a pin circle marks the city, a small factory icon drops in.",
+      "onScreenText": "2015 / United Snacks / Lahore",
+      "camera": "zoom into region",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": ""
+    },
+    {
+      "index": 4,
+      "startSec": 19,
+      "endSec": 22,
+      "visual": "Map pans to Europe and Turkey; dashed arrows fly from them to the factory.",
+      "onScreenText": "Modern machines",
+      "camera": "pan left then arc",
+      "transition": "camera pan",
+      "make": "motion_graphic",
+      "notes": "Dashed arc arrows on a map."
+    },
+    {
+      "index": 5,
+      "startSec": 22,
+      "endSec": 25,
+      "visual": "Balance scale: our packet on one pan, the market leader's packet on the other; it wobbles then levels.",
+      "onScreenText": "Lay's-level quality",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Balance = comparison metaphor."
+    },
+    {
+      "index": 6,
+      "startSec": 25,
+      "endSec": 30,
+      "visual": "Simple character in kurta raises arms and shouts the name in a speech bubble; a checklist ticks in beside him.",
+      "onScreenText": "✓ Simple ✓ Desi ✓ Memorable",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Speech bubble + checklist."
+    },
+    {
+      "index": 7,
+      "startSec": 30,
+      "endSec": 32,
+      "visual": "A celebrity-style figure in a suit and sunglasses holds the packet up.",
+      "onScreenText": "Fawad Khan / brand ambassador",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Real person: in a rebuild use a generic figure, not a likeness."
+    },
+    {
+      "index": 8,
+      "startSec": 32,
+      "endSec": 37,
+      "visual": "TV with the ad, then a billboard, then a whole city skyline covered in ads and packets.",
+      "onScreenText": "TV / Billboard / Everywhere",
+      "camera": "zoom out to skyline",
+      "transition": "zoom out",
+      "make": "motion_graphic",
+      "notes": "Accumulation by zooming out."
+    },
+    {
+      "index": 9,
+      "startSec": 37,
+      "endSec": 41,
+      "visual": "Line chart draws: our curve shoots up past the leader's dashed line, which then dips; packets ride the line ends.",
+      "onScreenText": "Sales boom / Lay's sales down",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Line chart with icon markers."
+    },
+    {
+      "index": 10,
+      "startSec": 41,
+      "endSec": 44,
+      "visual": "Shopkeeper behind a counter with jars; both packets slam onto the counter.",
+      "onScreenText": "War / at the shop counter",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Big bold 'War' title."
+    },
+    {
+      "index": 11,
+      "startSec": 44,
+      "endSec": 52,
+      "visual": "Shopkeeper; leader's cartons stack up 10 then +1 free arrives with an arrow.",
+      "onScreenText": "Industry estimates / 10 +1 free",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Big number counter."
+    },
+    {
+      "index": 12,
+      "startSec": 52,
+      "endSec": 56,
+      "visual": "Shelf: leader's packets move to the top row, ours to the bottom; top row circled; coins pop in.",
+      "onScreenText": "Top shelf: Lay's / + monthly reward",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Shelf rearrangement."
+    },
+    {
+      "index": 13,
+      "startSec": 56,
+      "endSec": 63,
+      "visual": "Three townspeople; whispers pass between them as speech-line gestures, then speech bubbles; a stink line rises from the packet.",
+      "onScreenText": "Rumours / (bubbles)",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Speech bubbles with quotes."
+    },
+    {
+      "index": 14,
+      "startSec": 63,
+      "endSec": 66,
+      "visual": "Both packets; an arrow points at the leader, then is crossed out.",
+      "onScreenText": "All the blame on Lay's?",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Strike-through arrow = 'not quite'."
+    },
+    {
+      "index": 15,
+      "startSec": 66,
+      "endSec": 69,
+      "visual": "Network diagram: factory linked to six shops; dashed links get X marks.",
+      "onScreenText": "Distribution: weak",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Hub-and-spoke diagram."
+    },
+    {
+      "index": 16,
+      "startSec": 69,
+      "endSec": 74,
+      "visual": "Man sees the ad on TV (tick, thought bubble of packet), then stands at an empty shelf slot (cross, circled gap).",
+      "onScreenText": "Ads ✓ / In shops ✗",
+      "camera": "pan right",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Tick/cross pairing."
+    },
+    {
+      "index": 17,
+      "startSec": 74,
+      "endSec": 79,
+      "visual": "Executive beside a big switch; chart of expected (dashed) vs actual (flat) with a gap arrow; he flips the switch off.",
+      "onScreenText": "Expected vs actual / Marketing: off",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Switch = shut down."
+    },
+    {
+      "index": 18,
+      "startSec": 79,
+      "endSec": 83,
+      "visual": "TV goes dark; three people's thought bubbles of the packet scribble out and fade.",
+      "onScreenText": "Ads off / Forgotten",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Thought bubbles fading = forgetting."
+    },
+    {
+      "index": 19,
+      "startSec": 83,
+      "endSec": 88,
+      "visual": "Man pumps a balloon labelled 'hype' with a face; it swells, then shrinks as he tires.",
+      "onScreenText": "Making hype: easy / Keeping it: hard",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Balloon metaphor for the lesson."
+    },
+    {
+      "index": 20,
+      "startSec": 88,
+      "endSec": 92,
+      "visual": "Shop shelf with a single packet, circled, with sparkles.",
+      "onScreenText": "Today... in a few shops",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": ""
+    },
+    {
+      "index": 21,
+      "startSec": 92,
+      "endSec": 93.9,
+      "visual": "The shelf freezes into a taped polaroid photo.",
+      "onScreenText": "Just a memory",
+      "camera": "static",
+      "transition": "freeze to photo",
+      "make": "motion_graphic",
+      "notes": "Polaroid = memory ending."
+    }
+  ],
+  "narration": {
+    "present": true,
+    "script": "In 2016, this brand was on its way to becoming Pakistan's number one snack brand. But then it vanished, as if no one had ever known it. This is the story of Oye Hoye chips. In 2015, United Snacks set up a factory near Lahore, and imported modern machines from Europe and Turkey, for quality on par with Lay's. They named it: Oye Hoye! Simple, desi, and memorable. Fawad Khan became the brand ambassador. From TV to billboards, Oye Hoye was everywhere. Sales boomed so much that even Lay's sales started to fall. Then the war reached the shop counter. According to industry estimates, Lay's started giving shopkeepers one free carton for every ten, and for keeping it on the top shelf, a monthly reward as well. At the same time, rumours began to spread in the market: \"It's not halal.\" \"The flavour smells.\" But putting all the blame on Lay's would be wrong. Oye Hoye's distribution was weak. People saw the ads, but couldn't find the chips in shops. And when sales didn't grow as expected, the company shut down marketing altogether. The ads stopped, and people forgot the brand. Creating hype is easy. Keeping it alive is hard. Oye Hoye is still found in a few shops today, but its magic is now just a memory.",
+    "voice": "Single male narrator, brisk and punchy, slightly dramatic on turns ('But then...'), conversational.",
+    "wordsPerMinute": 158
+  },
+  "captions": {
+    "present": false,
+    "style": "No captions; a short headline per line plus a smaller subtitle line; numbers shown large."
+  },
+  "music": {
+    "present": true,
+    "description": "Light background bed under narration (not analysed in detail).",
+    "energy": "Steady; beats change on each narration line."
+  },
+  "soundEffects": [
+    {
+      "atSec": 1,
+      "description": "hop/boing per step"
+    },
+    {
+      "atSec": 7,
+      "description": "poof vanish"
+    },
+    {
+      "atSec": 20,
+      "description": "whoosh arrows"
+    },
+    {
+      "atSec": 42,
+      "description": "thud on counter"
+    },
+    {
+      "atSec": 48,
+      "description": "box stack"
+    },
+    {
+      "atSec": 55,
+      "description": "coin"
+    },
+    {
+      "atSec": 78,
+      "description": "switch click"
+    },
+    {
+      "atSec": 84,
+      "description": "pump/inflate"
+    },
+    {
+      "atSec": 92,
+      "description": "camera shutter"
+    }
+  ],
+  "textStyle": "Bold black headline near the top with a hand-drawn underline on the key word, a smaller line under it; big numerals for figures; ticks and crosses beside list items.",
+  "pacing": {
+    "shots": 22,
+    "averageShotSec": 4.3,
+    "notes": "32 narration lines in 94 s: a new diagram or change every 2-3 s; mostly cuts between simple static diagrams with small animations."
+  }
+}

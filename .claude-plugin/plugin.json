@@ -1,0 +1,7 @@
+{
+  "name": "explainer-studio",
+  "version": "1.0.0",
+  "description": "Make 9:16 illustrated explainer videos (brand stories, 'what happened to X', success stories) end to end with Claude Code and Remotion: research, script, beat sheet, SVG assets, voice-over, word-timed animation, render and visual QC. Ships a Remotion component library, two looks (storybook, sketch), demos, and three analysed reference videos.",
+  "author": { "name": "Explainer Studio" },
+  "keywords": ["video", "remotion", "explainer", "animation", "shorts", "reels"]
+}

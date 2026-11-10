@@ -1,0 +1,332 @@
+{
+  "title": "JazzCash success story (English rebuild reference)",
+  "summary": "A 90 s vertical success-story explainer from the same channel, in the storybook look but driven by cuts and match-cuts rather than one continuous camera. The hero object is a paper plane (money moving). Business mechanics become objects: nesting dolls for a rename, joining coin halves for a partnership, a snakes-and-ladders board for the slow old process, an umbrella for the parent brand, gears for services, scratch card and lock screen for years. Arc: today's scale, 'did you know it began as...', origin year and partners, the problem, the solution, features, rebrand, growth milestones, today.",
+  "format": {
+    "aspectRatio": "9:16",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "durationSec": 90.3
+  },
+  "sections": [
+    {
+      "label": "Hook (today)",
+      "startSec": 0,
+      "endSec": 9,
+      "purpose": "How big it is today, shown as quick uses."
+    },
+    {
+      "label": "Did you know",
+      "startSec": 9,
+      "endSec": 16,
+      "purpose": "It started under another name."
+    },
+    {
+      "label": "Origin",
+      "startSec": 16,
+      "endSec": 24,
+      "purpose": "Year and the partnership that launched it."
+    },
+    {
+      "label": "Problem",
+      "startSec": 24,
+      "endSec": 35,
+      "purpose": "How slow the old way was."
+    },
+    {
+      "label": "Solution + features",
+      "startSec": 35,
+      "endSec": 52,
+      "purpose": "Easy via nearby shops, then phones."
+    },
+    {
+      "label": "Rebrand",
+      "startSec": 52,
+      "endSec": 66,
+      "purpose": "Parent company renamed; product renamed."
+    },
+    {
+      "label": "Growth",
+      "startSec": 66,
+      "endSec": 82,
+      "purpose": "App, online, business services, business app."
+    },
+    {
+      "label": "Today",
+      "startSec": 82,
+      "endSec": 90.3,
+      "purpose": "More than transfers: a national platform."
+    }
+  ],
+  "shots": [
+    {
+      "index": 0,
+      "startSec": 0,
+      "endSec": 1,
+      "visual": "A banknote folds itself into a paper plane.",
+      "camera": "static",
+      "transition": "opening",
+      "make": "motion_graphic",
+      "notes": "Paper plane = money transfer; the recurring hero object."
+    },
+    {
+      "index": 1,
+      "startSec": 1,
+      "endSec": 2,
+      "visual": "The plane flies around a globe and lands on the country.",
+      "onScreenText": "Millions of people",
+      "camera": "orbit",
+      "transition": "match cut",
+      "make": "motion_graphic",
+      "notes": ""
+    },
+    {
+      "index": 2,
+      "startSec": 2,
+      "endSec": 3,
+      "visual": "Country map; plane flies between two city pins.",
+      "onScreenText": "Sending money",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Map route."
+    },
+    {
+      "index": 3,
+      "startSec": 3,
+      "endSec": 4,
+      "visual": "House with a bill pinned to the door; the plane delivers it.",
+      "onScreenText": "Paying bills",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": ""
+    },
+    {
+      "index": 4,
+      "startSec": 4,
+      "endSec": 6,
+      "visual": "General store with a scan-and-pay QR stand; a phone scans it.",
+      "onScreenText": "Digital payments",
+      "camera": "pan right",
+      "transition": "camera pan",
+      "make": "motion_graphic",
+      "notes": ""
+    },
+    {
+      "index": 5,
+      "startSec": 6,
+      "endSec": 9,
+      "visual": "Brand logo over the map, planes flying everywhere.",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Logo reveal."
+    },
+    {
+      "index": 6,
+      "startSec": 9,
+      "endSec": 16,
+      "visual": "A nesting doll with today's brand opens to reveal an older inner doll labelled 'first name?', which becomes the old brand name.",
+      "onScreenText": "Did you know? / Where it began / Mobicash",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Nesting doll = rename: the old identity is inside the new one."
+    },
+    {
+      "index": 7,
+      "startSec": 16,
+      "endSec": 18,
+      "visual": "A prepaid recharge card is scratched to reveal the year.",
+      "onScreenText": "The story begins / 2012",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Year reveal device."
+    },
+    {
+      "index": 8,
+      "startSec": 18,
+      "endSec": 24,
+      "visual": "Two coin halves (telecom tower, bank) slide together into one coin that becomes the product badge with rays.",
+      "onScreenText": "Mobilink + Waseela Microfinance Bank / Mobicash",
+      "camera": "static",
+      "transition": "card flips to coin",
+      "make": "motion_graphic",
+      "notes": "Joining halves = partnership."
+    },
+    {
+      "index": 9,
+      "startSec": 24,
+      "endSec": 35,
+      "visual": "Snakes-and-ladders board: a pawn at 'home' has to climb a long snake to the 'bank' square; dice, hourglass and coin below.",
+      "onScreenText": "Back then / Sending money or paying a bill / Had to go to the bank / A lot of time",
+      "camera": "zoom in/out",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Board game = slow process; reused as a callback."
+    },
+    {
+      "index": 10,
+      "startSec": 35,
+      "endSec": 38,
+      "visual": "Zoom into the board's first row: home, pawn, then the shop square right next door, with an arrow.",
+      "onScreenText": "Easy",
+      "camera": "push in",
+      "transition": "zoom through",
+      "make": "motion_graphic",
+      "notes": "Shortcut = solution."
+    },
+    {
+      "index": 11,
+      "startSec": 38,
+      "endSec": 46,
+      "visual": "Street: a man walks to the nearby shop with the brand sign, hands over cash; a paper plane flies off; a map route; a woman receives; a shopkeeper takes a utility bill.",
+      "onScreenText": "Nearby shopkeeper / Send money / Receive / Utility bills",
+      "camera": "pan",
+      "transition": "cuts",
+      "make": "motion_graphic",
+      "notes": ""
+    },
+    {
+      "index": 12,
+      "startSec": 46,
+      "endSec": 52,
+      "visual": "Phone app: menu fills in (send, bills, top-up, savings), side objects pop in, a big tick.",
+      "onScreenText": "From a phone too / Other financial tasks / Convenience",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "UI mock in the house style."
+    },
+    {
+      "index": 13,
+      "startSec": 52,
+      "endSec": 59,
+      "visual": "The doll stands under a red-and-white umbrella with the parent brand; wind blows the umbrella.",
+      "onScreenText": "At first / Mobilink's service / 2016",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Umbrella = parent brand."
+    },
+    {
+      "index": 14,
+      "startSec": 59,
+      "endSec": 66,
+      "visual": "The umbrella turns yellow with the new parent logo; the red doll goes inside the yellow JazzCash doll.",
+      "onScreenText": "New identity / JazzCash",
+      "camera": "static",
+      "transition": "in place",
+      "make": "motion_graphic",
+      "notes": "Recolour = rebrand."
+    },
+    {
+      "index": 15,
+      "startSec": 66,
+      "endSec": 73,
+      "visual": "Phone screens: real-looking app UI, then gears (phone, cart, shop) turning, a progress bar.",
+      "onScreenText": "Mobile app / Online payments / Business services / Even better",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Gears = services working together."
+    },
+    {
+      "index": 16,
+      "startSec": 73,
+      "endSec": 78,
+      "visual": "Phone lock screen shows the date 2020 and a notification for the new business app; two phones side by side labelled customer / shopkeeper.",
+      "onScreenText": "2020 / A separate app for business",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Lock-screen date = year reveal."
+    },
+    {
+      "index": 17,
+      "startSec": 78,
+      "endSec": 82,
+      "visual": "Shop counter with QR stand; customers' phones tap in, '+Rs' payment tags pop up.",
+      "onScreenText": "Digital payments",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Price tags."
+    },
+    {
+      "index": 18,
+      "startSec": 82,
+      "endSec": 86,
+      "visual": "A paper plane flies out, unfolds into a sheet of paper.",
+      "onScreenText": "Just sending money?",
+      "camera": "static",
+      "transition": "cut",
+      "make": "motion_graphic",
+      "notes": "Callback to the hero object."
+    },
+    {
+      "index": 19,
+      "startSec": 86,
+      "endSec": 90.3,
+      "visual": "The paper folds into a 3D map of the country; icons (logo, QR, shop, bills, phones) and paper planes circle it.",
+      "onScreenText": "One of the biggest digital financial platforms",
+      "camera": "static",
+      "transition": "origami fold",
+      "make": "motion_graphic",
+      "notes": "Ending: everything together on the map."
+    }
+  ],
+  "narration": {
+    "present": true,
+    "script": "Today, millions of people in Pakistan use JazzCash to send money, pay bills and make online payments. But did you know it started out as a service called Mobicash? The story began in 2012, when Mobilink teamed up with Waseela Microfinance Bank to launch Mobicash. Back then, to send money or pay a bill, you often had to go to a bank, where even a small task took a lot of time. Mobicash made this easy. People could send money, receive it, and pay utility bills through their nearby shopkeeper. They could also send money and do other financial tasks from their mobile phone. At first, the service went by Mobilink's name. But in 2016, Mobilink introduced its new identity, Jazz, so Mobicash became JazzCash. After that, JazzCash kept improving its mobile app, online payments and business services. In 2020, it also launched a separate app for businesses, so shopkeepers could accept digital payments. Today, JazzCash isn't just a way to send money; it's one of Pakistan's biggest digital financial platforms.",
+    "voice": "Single male narrator, clear, upbeat and informative; even pace.",
+    "wordsPerMinute": 125
+  },
+  "captions": {
+    "present": false,
+    "style": "No captions; a title per phrase (2-6 per sentence), sometimes with a smaller second line; underline on key terms."
+  },
+  "music": {
+    "present": true,
+    "description": "Light background bed (not analysed in detail).",
+    "energy": "Steady."
+  },
+  "soundEffects": [
+    {
+      "atSec": 0.5,
+      "description": "paper fold"
+    },
+    {
+      "atSec": 10,
+      "description": "doll pop open"
+    },
+    {
+      "atSec": 16,
+      "description": "scratch"
+    },
+    {
+      "atSec": 22,
+      "description": "coin clink"
+    },
+    {
+      "atSec": 57,
+      "description": "wind gust"
+    },
+    {
+      "atSec": 79,
+      "description": "payment ding"
+    },
+    {
+      "atSec": 87,
+      "description": "paper fold"
+    }
+  ],
+  "textStyle": "Medium-weight dark title near the top, one short phrase at a time; occasional second smaller line; underline on key words; small @handle watermark.",
+  "pacing": {
+    "shots": 20,
+    "averageShotSec": 4.5,
+    "notes": "Long sentences but titles change every 1.5-3 s; scenes change by cut or by an object transforming (doll opens, card becomes coin, plane unfolds into map)."
+  }
+}

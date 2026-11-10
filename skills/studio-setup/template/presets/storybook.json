@@ -1,0 +1,9 @@
+{
+  "look": "storybook",
+  "palette": { "paper": "#efe9df", "ink": "#2b2a33", "accent": "#3b2f8f", "accent2": "#e8893a", "muted": ["#d9a5a0", "#9fb59a", "#c9a66b", "#a9b8c9", "#cdb7d6"] },
+  "stroke": 4,
+  "titleFont": "Inter, \"Helvetica Neue\", Arial, sans-serif",
+  "titleWeight": 700,
+  "titleColor": "#1f1e24",
+  "underlineColor": "#c9a66b"
+}

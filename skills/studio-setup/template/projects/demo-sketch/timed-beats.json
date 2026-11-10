@@ -1,0 +1,274 @@
+{
+ "slug": "demo-sketch",
+ "fps": 30,
+ "durationSec": 22.52,
+ "voice": "demo-sketch/voice.mp3",
+ "words": [
+  {
+   "w": "In",
+   "s": 0.3,
+   "e": 0.57
+  },
+  {
+   "w": "one",
+   "s": 0.62,
+   "e": 0.95
+  },
+  {
+   "w": "summer,",
+   "s": 1,
+   "e": 1.49
+  },
+  {
+   "w": "Mia's",
+   "s": 1.54,
+   "e": 1.92
+  },
+  {
+   "w": "lemonade",
+   "s": 1.97,
+   "e": 2.57
+  },
+  {
+   "w": "stand",
+   "s": 2.62,
+   "e": 3.05
+  },
+  {
+   "w": "became",
+   "s": 3.1,
+   "e": 3.59
+  },
+  {
+   "w": "the",
+   "s": 3.64,
+   "e": 3.97
+  },
+  {
+   "w": "busiest",
+   "s": 4.02,
+   "e": 4.56
+  },
+  {
+   "w": "on",
+   "s": 4.61,
+   "e": 4.88
+  },
+  {
+   "w": "the",
+   "s": 4.93,
+   "e": 5.26
+  },
+  {
+   "w": "street.",
+   "s": 5.31,
+   "e": 5.8
+  },
+  {
+   "w": "Her",
+   "s": 6.45,
+   "e": 6.77
+  },
+  {
+   "w": "secret",
+   "s": 6.82,
+   "e": 7.31
+  },
+  {
+   "w": "was",
+   "s": 7.36,
+   "e": 7.69
+  },
+  {
+   "w": "simple:",
+   "s": 7.74,
+   "e": 8.23
+  },
+  {
+   "w": "fresh",
+   "s": 8.28,
+   "e": 8.71
+  },
+  {
+   "w": "lemons,",
+   "s": 8.76,
+   "e": 9.25
+  },
+  {
+   "w": "fair",
+   "s": 9.3,
+   "e": 9.68
+  },
+  {
+   "w": "prices,",
+   "s": 9.73,
+   "e": 10.22
+  },
+  {
+   "w": "and",
+   "s": 10.27,
+   "e": 10.6
+  },
+  {
+   "w": "a",
+   "s": 10.65,
+   "e": 10.86
+  },
+  {
+   "w": "friendly",
+   "s": 10.91,
+   "e": 11.51
+  },
+  {
+   "w": "smile.",
+   "s": 11.56,
+   "e": 12
+  },
+  {
+   "w": "Then",
+   "s": 12.65,
+   "e": 13.03
+  },
+  {
+   "w": "the",
+   "s": 13.08,
+   "e": 13.4
+  },
+  {
+   "w": "stand",
+   "s": 13.45,
+   "e": 13.89
+  },
+  {
+   "w": "next",
+   "s": 13.93,
+   "e": 14.32
+  },
+  {
+   "w": "door",
+   "s": 14.36,
+   "e": 14.75
+  },
+  {
+   "w": "started",
+   "s": 14.79,
+   "e": 15.34
+  },
+  {
+   "w": "giving",
+   "s": 15.39,
+   "e": 15.88
+  },
+  {
+   "w": "away",
+   "s": 15.93,
+   "e": 16.31
+  },
+  {
+   "w": "free",
+   "s": 16.36,
+   "e": 16.74
+  },
+  {
+   "w": "cookies.",
+   "s": 16.79,
+   "e": 17.34
+  },
+  {
+   "w": "Today,",
+   "s": 17.99,
+   "e": 18.42
+  },
+  {
+   "w": "the",
+   "s": 18.47,
+   "e": 18.79
+  },
+  {
+   "w": "stand",
+   "s": 18.85,
+   "e": 19.28
+  },
+  {
+   "w": "is",
+   "s": 19.33,
+   "e": 19.6
+  },
+  {
+   "w": "just",
+   "s": 19.65,
+   "e": 20.03
+  },
+  {
+   "w": "a",
+   "s": 20.08,
+   "e": 20.29
+  },
+  {
+   "w": "happy",
+   "s": 20.35,
+   "e": 20.78
+  },
+  {
+   "w": "memory.",
+   "s": 20.83,
+   "e": 21.32
+  }
+ ],
+ "beats": [
+  {
+   "id": "s01",
+   "line": "In one summer, Mia's lemonade stand became the busiest on the street.",
+   "title": [
+    "One summer"
+   ],
+   "underline": "summer",
+   "startSec": 0,
+   "endSec": 6.25,
+   "cues": {
+    "In one summer,": 0.3,
+    "became the busiest": 3.1
+   }
+  },
+  {
+   "id": "s02",
+   "line": "Her secret was simple: fresh lemons, fair prices, and a friendly smile.",
+   "title": [
+    "Her secret"
+   ],
+   "startSec": 6.25,
+   "endSec": 12.450000000000001,
+   "cues": {
+    "Her secret was": 6.45,
+    "fresh lemons": 8.28,
+    "fair prices": 9.3,
+    "friendly smile": 10.91
+   }
+  },
+  {
+   "id": "s03",
+   "line": "Then the stand next door started giving away free cookies.",
+   "title": [
+    "Free cookies"
+   ],
+   "underline": "free",
+   "startSec": 12.450000000000001,
+   "endSec": 17.79,
+   "cues": {
+    "Then the stand": 12.65,
+    "free cookies": 16.36
+   }
+  },
+  {
+   "id": "s04",
+   "line": "Today, the stand is just a happy memory.",
+   "title": [],
+   "startSec": 17.79,
+   "endSec": 22.52,
+   "cues": {
+    "Today, the stand": 17.99,
+    "happy memory": 20.35
+   }
+  }
+ ]
+}

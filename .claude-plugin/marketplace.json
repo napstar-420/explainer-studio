@@ -1,0 +1,16 @@
+{
+  "name": "explainer-studio",
+  "owner": {
+    "name": "Explainer Studio"
+  },
+  "plugins": [
+    {
+      "name": "explainer-studio",
+      "source": "./",
+      "description": "Illustrated explainer video studio for Claude Code (Remotion)."
+    }
+  ],
+  "metadata": {
+    "description": "Explainer Studio: make illustrated 9:16 explainer videos with Claude Code and Remotion."
+  }
+}

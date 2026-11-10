@@ -1,0 +1,353 @@
+{
+  "title": "What happened to BP Spacer? (English rebuild reference)",
+  "summary": "A 105s vertical explainer (original, rebuilt in English) telling the history of a nostalgic Pakistani toffee brand. Flat, warm-paper 2D illustration with one recurring hero object (the toffee, drawn as a rocket) that travels through every scene, so the whole video feels like one continuous camera move rather than cuts. Structure: nostalgic hook, the question ('why is it rarely seen today?'), origin story via a time dial (1947 Karachi bakery), growth, competition (1988 onward), decline in shops, a twist (still sold in 2013), and an open ending. It works because every abstract idea becomes a visual metaphor (popularity = launch + fireworks, competition = rocket race, product range = constellation, new brands = flags on a moon).",
+  "format": {
+    "aspectRatio": "9:16",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "durationSec": 105.4
+  },
+  "sections": [
+    {
+      "label": "Hook",
+      "startSec": 0,
+      "endSec": 9.5,
+      "purpose": "Nostalgia: the toffee fills a shop jar, kids on a rooftop cheer as it launches like a rocket ('hugely popular')."
+    },
+    {
+      "label": "Question",
+      "startSec": 9.5,
+      "endSec": 12.8,
+      "purpose": "Today: a telescope searches a modern shop shelf and finds an empty slot. 'Why is it rarely seen now?'"
+    },
+    {
+      "label": "Origin",
+      "startSec": 12.8,
+      "endSec": 30.5,
+      "purpose": "Time dial spins 2026 to 1951/1947; globe zooms to Karachi; founder on Lawrence Road opens a small bakery: bread, biscuits, cake, then toffees."
+    },
+    {
+      "label": "Rise",
+      "startSec": 30.5,
+      "endSec": 44.2,
+      "purpose": "Toffee launches from the bakery dome, bakery grows into BP Industries; product constellation (BP Spacer, Whale Jelly, Chicken Candy)."
+    },
+    {
+      "label": "Competition",
+      "startSec": 44.2,
+      "endSec": 70.4,
+      "purpose": "1986-1988: CandyLand plants a flag on the moon, more company flags follow; candies orbit the moon; a child surrounded by options; rocket race on new packaging, ads and shop availability; the toffee falls behind."
+    },
+    {
+      "label": "Twist",
+      "startSec": 70.4,
+      "endSec": 97,
+      "purpose": "BP never only made toffees (chewing gum, bubble gum, jelly, chocolate, biscuits); old popularity recalled; the toffee orbits the globe; 'not finished': a 2013 news clipping shows it still sells at Rs. 2."
+    },
+    {
+      "label": "Close",
+      "startSec": 97,
+      "endSec": 105.4,
+      "purpose": "Toffee orbiting softly, dial moves 2013 to 2026; father and child at a telescope at night: it is not gone, just 'out of sight'."
+    }
+  ],
+  "shots": [
+    {
+      "index": 0,
+      "startSec": 0,
+      "endSec": 1.8,
+      "visual": "Hundreds of purple toffees swirl in a galaxy spiral on cream paper, then pour down into a glass jar.",
+      "camera": "static, particles converge",
+      "transition": "opening",
+      "make": "motion_graphic",
+      "notes": "Particle swarm of one SVG toffee instanced N times."
+    },
+    {
+      "index": 1,
+      "startSec": 1.8,
+      "endSec": 5.5,
+      "visual": "Corner shop: big jar labelled 'BP Spacer Toffee' on a wooden counter, line-art buildings behind, a smiling kid peeks over the counter; one toffee is circled.",
+      "onScreenText": "BP Spacer",
+      "camera": "slow push into jar",
+      "transition": "toffees stream into jar",
+      "make": "motion_graphic",
+      "notes": "Circle = hand-drawn shape annotation."
+    },
+    {
+      "index": 2,
+      "startSec": 5.5,
+      "endSec": 9.5,
+      "visual": "The circled toffee ignites a flame and flies up like a rocket with a smoke trail; rooftop kids watch then cheer; star burst fireworks.",
+      "onScreenText": "Hugely popular",
+      "camera": "tilt up following the rocket",
+      "transition": "camera follows object",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 3,
+      "startSec": 9.5,
+      "endSec": 12.8,
+      "visual": "Smoke cloud wipes to a modern pastel shop shelf; brass telescope with magnifier lens scans and finds an empty dashed slot.",
+      "onScreenText": "Today / Why is it rarely seen?",
+      "camera": "static, lens pans",
+      "transition": "smoke-cloud wipe",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 4,
+      "startSec": 12.8,
+      "endSec": 16.5,
+      "visual": "Telescope view: a porthole globe zooms from world to Pakistan to a Karachi pin; brass year dial spins 2026 to 1951 to 1947.",
+      "onScreenText": "After independence / 1947 / Karachi",
+      "camera": "zoom into globe",
+      "transition": "zoom through lens",
+      "make": "motion_graphic",
+      "notes": "Year dial is a reusable widget."
+    },
+    {
+      "index": 5,
+      "startSec": 16.5,
+      "endSec": 20,
+      "visual": "Founder in white shalwar kameez, black waistcoat and cap walks along a colonial street; street sign 'Lawrence Road'.",
+      "onScreenText": "Sheikh Muhammad Yahya / Nishtar Road",
+      "camera": "truck right",
+      "transition": "map pin dissolves to street",
+      "make": "motion_graphic",
+      "notes": "Character = consistent SVG with walk cycle."
+    },
+    {
+      "index": 6,
+      "startSec": 20,
+      "endSec": 22.5,
+      "visual": "A small bread-loaf-shaped bakery shop builds in on the street, smoke from chimney; 'Bakery' sign.",
+      "onScreenText": "A small business",
+      "camera": "push into the shop door",
+      "transition": "building pops in",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 7,
+      "startSec": 22.5,
+      "endSec": 27,
+      "visual": "Brick oven interior; products appear on the counter with tags: Bread, biscuits, cake.",
+      "onScreenText": "Bread / Biscuits / Cake",
+      "camera": "static",
+      "transition": "zoom through door",
+      "make": "motion_graphic",
+      "notes": "Tag labels pop in one by one on the narration cue."
+    },
+    {
+      "index": 8,
+      "startSec": 27,
+      "endSec": 30.5,
+      "visual": "Copper pot cooking toffee; a cleaver cuts toffee strips; a wrapped Spacer toffee lands in a card.",
+      "onScreenText": "Toffees",
+      "camera": "pan right along counter",
+      "transition": "pan",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 9,
+      "startSec": 30.5,
+      "endSec": 34.3,
+      "visual": "The toffee turns upright and launches from the bakery dome; the shop grows into a factory 'BP Industries' with chimneys.",
+      "camera": "pull out then tilt up",
+      "transition": "rocket launch",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 10,
+      "startSec": 34.3,
+      "endSec": 41.8,
+      "visual": "Star-map background; products become constellations connected by dashed lines: BP Spacer, Whale Jelly, Chicken Candy.",
+      "onScreenText": "Famous products / BP Spacer / Whale Jelly / Chicken Candy",
+      "camera": "slow drift down the sky",
+      "transition": "rocket flies into night sky",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 11,
+      "startSec": 41.8,
+      "endSec": 45,
+      "visual": "Concentric orbit rings collapse into the brass year dial: 1986 then 1988.",
+      "onScreenText": "1986 / 1988",
+      "camera": "static",
+      "transition": "radial rings",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 12,
+      "startSec": 45,
+      "endSec": 50.5,
+      "visual": "Moon surface: a 'CandyLand' flag is planted, a giant boot steps down; many more coloured company flags appear.",
+      "onScreenText": "1988 / New companies",
+      "camera": "pull out",
+      "transition": "dial cut to moon",
+      "make": "motion_graphic",
+      "notes": "Flags = generic logo slots, not real brands in a rebuild."
+    },
+    {
+      "index": 13,
+      "startSec": 50.5,
+      "endSec": 56.5,
+      "visual": "Whole moon with a ring of orbiting sweets: jellies, chewing gum, bubble gum bubble.",
+      "onScreenText": "Different flavours / Jellies / Chewing gum",
+      "camera": "pull out",
+      "transition": "zoom out",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 14,
+      "startSec": 56.5,
+      "endSec": 60.5,
+      "visual": "A schoolboy stands in the middle of orbiting candies, mouth open, then raises his arms happily.",
+      "onScreenText": "More options",
+      "camera": "static",
+      "transition": "moon swaps for kid",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 15,
+      "startSec": 60.5,
+      "endSec": 64,
+      "visual": "Four rockets on launch pads (three patterned rival rockets plus the Spacer toffee); race lights count down and they lift off.",
+      "onScreenText": "Competition",
+      "camera": "tilt up with rockets",
+      "transition": "cut",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 16,
+      "startSec": 64,
+      "endSec": 70.4,
+      "visual": "Rival rockets gain boosts: new packaging, ads (screens), shop availability (shop icons stacking); the toffee falls behind and drifts down alone.",
+      "onScreenText": "New packaging / Ads / In every shop",
+      "camera": "camera rises with the rivals",
+      "transition": "continuous",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 17,
+      "startSec": 70.4,
+      "endSec": 80,
+      "visual": "Toffee stands under a red 'B.P' seal; a dashed orbit reveals the rest of the range: chewing gum, bubble gum, jelly box, chocolate bear, biscuit.",
+      "onScreenText": "Only toffees / Chewing gum / Bubble gum / Jelly / Chocolate / Biscuits",
+      "camera": "static",
+      "transition": "toffee rises into frame",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 18,
+      "startSec": 80,
+      "endSec": 86.6,
+      "visual": "Toffee alone, then flies again above cheering rooftop kids with fireworks.",
+      "onScreenText": "Old popularity",
+      "camera": "tilt down to rooftops",
+      "transition": "callback to shot 2",
+      "make": "motion_graphic",
+      "notes": "Deliberate visual callback to the hook."
+    },
+    {
+      "index": 19,
+      "startSec": 86.6,
+      "endSec": 93,
+      "visual": "Globe with Pakistan highlighted; the toffee orbits it; a search crosshair finds it; dial shows 2012 then 2013.",
+      "onScreenText": "Not finished / 2012 / 2013",
+      "camera": "static",
+      "transition": "zoom out to globe",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 20,
+      "startSec": 93,
+      "endSec": 97,
+      "visual": "Newspaper clipping slides in ('…they still produce the popular Chocolate Dream, BP Spacer and Pizza Jelly', Aug 2013); jar and box of Spacer on a shelf with a 'Rs. 2' tag under a hanging bulb.",
+      "onScreenText": "Still on sale / Rs. 2",
+      "camera": "static",
+      "transition": "paper slides in",
+      "make": "motion_graphic",
+      "notes": "Source citation on screen builds trust."
+    },
+    {
+      "index": 21,
+      "startSec": 97,
+      "endSec": 102,
+      "visual": "Toffee floats in a warm glow with mini toffees orbiting; dial moves 2013 to 2026.",
+      "onScreenText": "2013 / 2026",
+      "camera": "static",
+      "transition": "fade",
+      "make": "motion_graphic"
+    },
+    {
+      "index": 22,
+      "startSec": 102,
+      "endSec": 105.4,
+      "visual": "Night rooftop with crescent moon: a father points a telescope at the tiny toffee in the sky, a child beside him.",
+      "onScreenText": "Out of sight",
+      "camera": "static",
+      "transition": "toffee shrinks into the sky",
+      "make": "motion_graphic",
+      "notes": "Bookends the telescope from shot 3."
+    }
+  ],
+  "narration": {
+    "present": true,
+    "script": "You must have eaten plenty of BP Spacer toffees in your childhood too. But do you know why this toffee, once hugely popular with kids, is so rarely seen in the market today? The story begins in Karachi, after Pakistan's independence, when Sheikh Muhammad Yahya started a small bakery business on Nishtar Road. At first he made bread, biscuits and cakes. But later he started making toffees too. And so the journey of BP Industries moved forward, and its famous products came to include sweets like BP Spacer, Whale Jelly and Chicken Candy. But over time, the market began to change. In 1988, Candyland also stepped into the industry. And then new companies began introducing different flavours, jellies and chewing gum. Kids now had far more options than ever before. Meanwhile, competition in the market was growing, where new packaging, advertising and a better presence in shops were becoming more and more important. BP, too, instead of staying limited to toffees, began making chewing gum, bubble gum, jelly, chocolate and biscuits. But despite all this, BP Spacer couldn't hold on to its old popularity. Interestingly, it never disappeared completely. In fact, according to a 2013 report, it was still being sold. So this famous childhood toffee never really ended, but over time it slowly slipped out of sight for a new generation.",
+    "voice": "Single calm male narrator, warm conversational storytelling, mid energy; rebuild in English.",
+    "wordsPerMinute": 137
+  },
+  "captions": {
+    "present": false,
+    "style": "No word-by-word captions; one or two English keyword titles per beat, timed to the narration word."
+  },
+  "music": {
+    "present": true,
+    "description": "Soft background bed under the narration (unverified by ear; audio not analysed beyond pauses).",
+    "energy": "Steady; narration pauses of 0.5-0.9s mark beat changes at ~12, 22, 26, 30, 34, 41, 44, 49, 56, 60, 63, 70, 80, 86, 91s."
+  },
+  "soundEffects": [
+    {
+      "atSec": 5.5,
+      "description": "rocket ignition whoosh"
+    },
+    {
+      "atSec": 8,
+      "description": "fireworks / crowd cheer"
+    },
+    {
+      "atSec": 9,
+      "description": "smoke puff"
+    },
+    {
+      "atSec": 14,
+      "description": "dial tick spin"
+    },
+    {
+      "atSec": 47,
+      "description": "flag plant thud"
+    },
+    {
+      "atSec": 61,
+      "description": "countdown beeps"
+    },
+    {
+      "atSec": 62,
+      "description": "rocket launch"
+    },
+    {
+      "atSec": 84,
+      "description": "fireworks"
+    },
+    {
+      "atSec": 93,
+      "description": "paper slide"
+    }
+  ],
+  "textStyle": "Bold dark sans/serif keyword titles, centred near the top, one or two words; key word gets a hand-drawn underline that draws in, fades at beat end. Small @handle watermark.",
+  "pacing": {
+    "shots": 23,
+    "averageShotSec": 4.6,
+    "notes": "No hard cuts (scene detection found none): every change is a camera move, morph, smoke wipe or object-follow. A new visual idea every 2-4s."
+  }
+}

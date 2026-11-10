@@ -1,0 +1,44 @@
+{
+  "slug": "demo",
+  "title": "How the paper clip took over",
+  "fps": 30,
+  "beats": [
+    {
+      "id": "b01",
+      "line": "Almost every desk in the world has a paper clip somewhere on it.",
+      "title": ["Every desk"],
+      "underline": "desk",
+      "metaphor": "hundreds of clips swirl in and pour into a pencil cup on a desk",
+      "region": "desk",
+      "props": ["desk", "cup", "paper-clip"],
+      "camera": "static on the desk, slight push in",
+      "motion": [{ "use": "Swarm", "target": "paper-clip", "at": "paper clip" }],
+      "sfx": []
+    },
+    {
+      "id": "b02",
+      "line": "But back in 1899, it was just one of dozens of strange wire designs.",
+      "cue": "But back in",
+      "title": ["1899"],
+      "metaphor": "year dial spins back to 1899; odd wire designs orbit one clip",
+      "region": "dial",
+      "props": ["paper-clip", "wire-a", "wire-b", "wire-c"],
+      "camera": "tilt up from the desk to the dial",
+      "motion": [{ "use": "YearDial", "at": "1899" }, { "use": "Orbit", "target": "wire designs", "at": "dozens" }],
+      "transition": "camera tilt",
+      "sfx": []
+    },
+    {
+      "id": "b03",
+      "line": "Then one simple shape launched ahead of all the others.",
+      "title": ["One simple shape"],
+      "underline": "simple",
+      "metaphor": "the clip ignites and flies up like a rocket, leaving the others behind; burst",
+      "region": "sky",
+      "props": ["paper-clip"],
+      "camera": "follow the rocket up into the sky",
+      "motion": [{ "use": "FollowPath", "target": "paper-clip", "at": "launched" }, { "use": "Burst", "at": "others" }],
+      "sfx": []
+    }
+  ]
+}
