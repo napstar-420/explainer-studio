@@ -4,7 +4,7 @@
 //   --check    print versions and whether an update is available (exit 0 either way)
 //   --dry-run  show what would change without writing
 // Replaced (backed up to .studio-backup/<time>/ first when the workspace copy differs):
-//   CLAUDE.md, package.json, tsconfig.json, remotion.config.ts, .gitignore, src/index.ts, src/Root.tsx,
+//   AGENTS.md, CLAUDE.md, package.json, tsconfig.json, remotion.config.ts, .gitignore, src/index.ts, src/Root.tsx,
 //   src/lib/**, scripts/**, presets/**, reference/** (adds/updates only), markets/*/market.md,
 //   markets/README.md, library/README.md, projects/demo*/**, public/demo*/**
 // Merged: markets/*/voice.json (keeps your provider and voices), studio.json (keeps your settings).
@@ -37,7 +37,7 @@ const walk = (dir, base = dir) => readdirSync(dir).flatMap((n) => {
 });
 const managed = (rel) => {
   const r = rel.split('\\').join('/');
-  if (['CLAUDE.md', 'package.json', 'package-lock.json', 'tsconfig.json', 'remotion.config.ts', '.gitignore', 'src/index.ts', 'src/Root.tsx', 'markets/README.md', 'library/README.md'].includes(r)) return 'replace';
+  if (['AGENTS.md', 'CLAUDE.md', 'package.json', 'package-lock.json', 'tsconfig.json', 'remotion.config.ts', '.gitignore', 'src/index.ts', 'src/Root.tsx', 'markets/README.md', 'library/README.md'].includes(r)) return 'replace';
   if (/^(src\/lib|scripts|presets|reference)\//.test(r)) return 'replace';
   if (/^markets\/[^/]+\/market\.md$/.test(r)) return 'replace';
   if (/^markets\/[^/]+\/voice\.json$/.test(r)) return 'merge-voice';

@@ -1,4 +1,15 @@
-# Install instructions (for Claude Code)
+# Install instructions
+
+## Codex
+
+Follow the Codex installation section in [README.md](README.md). For an extracted zip,
+keep the folder at a stable location and add that absolute folder path with
+`codex plugin marketplace add /absolute/path/to/explainer-studio`, then install
+`explainer-studio@explainer-studio`. Start a new session and use the `studio-setup`
+skill with the chosen workspace folder (or `update-studio` for an existing workspace).
+Read [HOSTS.md](HOSTS.md) for invocation and agent role compatibility.
+
+## Claude Code
 
 The user gave you this zip to install the Explainer Studio plugin. Do this:
 

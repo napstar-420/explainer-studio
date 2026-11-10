@@ -3,6 +3,8 @@ name: research
 description: Research facts for an explainer video topic and write projects/<slug>/research.md with sources. Use for the research stage of an explainer video or when asked to gather facts for a video script.
 ---
 
+Read [host compatibility guidance](../../HOSTS.md) before running this workflow.
+
 # Research
 
 Write `projects/<slug>/research.md`:

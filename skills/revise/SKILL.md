@@ -4,6 +4,8 @@ description: Apply a change request to an existing explainer video (script line,
 argument-hint: "<slug> <what to change>"
 ---
 
+Read [host compatibility guidance](../../HOSTS.md) before running this workflow.
+
 # Revise a video
 
 Find what the change touches and redo only the downstream steps:

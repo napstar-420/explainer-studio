@@ -4,6 +4,8 @@ description: List the narrator voices available from ElevenLabs and VoiceStudio 
 argument-hint: "[--market uk|pk]"
 ---
 
+Read [host compatibility guidance](../../HOSTS.md) before running this workflow.
+
 # Pick the narrator voice
 
 Run in the workspace (folder with `studio.json`). Market: `--market` from `$ARGUMENTS`, else the

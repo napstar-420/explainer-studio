@@ -1,0 +1,13 @@
+{
+  "name": "explainer-studio",
+  "version": "1.3.1",
+  "description": "Make 9:16 illustrated explainer videos about UK brands for a British audience ('whatever happened to\u2026', success stories) end to end with Claude Code or Codex and Remotion: research (Companies House, UK press), British-English script, beat sheet, SVG assets, British narrator, word-timed animation, render and visual QC. Market packs (UK default, Pakistan), two looks, a Remotion component library, demos and three analysed reference videos.",
+  "author": {
+    "name": "Explainer Studio"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Explainer Studio",
+    "shortDescription": "Make illustrated explainer videos with Remotion"
+  }
+}
