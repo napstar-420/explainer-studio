@@ -1,7 +1,7 @@
-# Explainer Studio for Claude Code
+# Explainer Studio for Claude Code and Codex
 
 Make 9:16 illustrated explainer videos (90–110 s) about **UK brands for a British audience**, end
-to end with Claude Code: "whatever happened to…?", success stories, renames, how-it-works. Claude researches, writes the
+to end with Claude Code or Codex: "whatever happened to…?", success stories, renames, how-it-works. The agent researches, writes the
 script, plans every beat as a visual metaphor, draws the SVG props, voices it, animates it in
 Remotion timed to the spoken words, renders it, and checks the result frame by frame.
 
@@ -28,10 +28,12 @@ Copy `uk/` to add another market.
 
 ## Install
 
-**From GitHub (recommended):** push this folder to a repo, then in Claude Code:
+### Claude Code
+
+From GitHub, run in Claude Code:
 
 ```
-/plugin marketplace add <owner>/<repo>
+/plugin marketplace add napstar-420/explainer-studio
 /plugin install explainer-studio@explainer-studio
 ```
 
@@ -40,7 +42,7 @@ project and trusts the folder is offered the plugin:
 
 ```json
 {
-  "extraKnownMarketplaces": { "explainer-studio": { "source": { "source": "github", "repo": "<owner>/<repo>" } } },
+  "extraKnownMarketplaces": { "explainer-studio": { "source": { "source": "github", "repo": "napstar-420/explainer-studio" } } },
   "enabledPlugins": { "explainer-studio@explainer-studio": true }
 }
 ```
@@ -51,7 +53,30 @@ Or by hand: unzip, then
 `claude plugin marketplace add /path/to/explainer-studio` and
 `claude plugin install explainer-studio@explainer-studio`.
 
-## Use
+### Codex
+
+Add this same repository as a marketplace:
+
+```sh
+codex plugin marketplace add napstar-420/explainer-studio
+codex plugin add explainer-studio@explainer-studio
+```
+
+If your Codex version has no `plugin add` command, install Explainer Studio from the
+plugin browser after adding the marketplace. Restart Codex and start a new session.
+For a local checkout, use `codex plugin marketplace add /absolute/path/to/explainer-studio`.
+See [OpenAI's local plugin documentation](https://developers.openai.com/plugins/build/plugins).
+
+In Codex, select `$studio-setup` and provide the target folder, then open that workspace
+and select `$new-video` with your topic. You can also ask: "Use Explainer Studio's
+new-video skill to make a sketch video about Woolworths."
+Use `$update-studio` for an existing workspace, including one created with Claude Code.
+
+Both hosts use the same skills and video engine. [HOSTS.md](HOSTS.md) explains argument
+handling and agent roles; Codex reads those roles explicitly rather than registering
+Claude's agent files. Generated workspaces share their rules through `AGENTS.md`.
+
+## Use (Claude Code)
 
 ```
 /explainer-studio:studio-setup my-videos       # creates the Remotion workspace, installs, renders a test still
@@ -89,7 +114,10 @@ skills `research`, `script`, `beats`, `assets`, `voice`, `scenes`, `qc`. Agents:
 ## What's inside
 
 ```
-.claude-plugin/          plugin + marketplace manifests
+.claude-plugin/          Claude plugin + marketplace manifests
+.codex-plugin/           Codex plugin manifest (same skills/)
+.agents/plugins/         Codex marketplace catalog
+HOSTS.md                 shared host compatibility instructions
 skills/                  new-video (orchestrator), studio-setup, update-studio, pick-voice, stage skills,
                          analyze-reference, revise
 agents/                  fact-checker, svg-artist, qc-reviewer

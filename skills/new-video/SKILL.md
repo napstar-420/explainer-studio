@@ -4,10 +4,12 @@ description: Make a complete 9:16 illustrated explainer video (brand history, "w
 argument-hint: "<topic> [--market uk|pk] [--look storybook|sketch] [--arc decline|success|explain] [--seconds 100]"
 ---
 
+Read [host compatibility guidance](../../HOSTS.md) before running this workflow.
+
 # Make an explainer video
 
 Run inside an Explainer Studio workspace (a folder with `studio.json`). If there is none, run the
-`studio-setup` skill first. Read the workspace `CLAUDE.md`, `reference/channel-formula.md` and the
+`studio-setup` skill first. Read the workspace instructions (`AGENTS.md` and `CLAUDE.md` when present), `reference/channel-formula.md` and the
 market pack `markets/<market>/market.md` (market from `--market`, else `studio.json`, default `uk`).
 If no topic is given, suggest five from the market pack's topic bank.
 

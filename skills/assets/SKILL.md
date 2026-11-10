@@ -3,6 +3,8 @@ name: assets
 description: Draw the SVG props and characters for an explainer video into public/<slug>/assets/, consistent with style.json. Use for the asset stage or when asked to draw or redraw video props.
 ---
 
+Read [host compatibility guidance](../../HOSTS.md) before running this workflow.
+
 # Assets
 
 1. List unique props from `beats.json` (`node scripts/validate.mjs <slug>` prints missing ones).

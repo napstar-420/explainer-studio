@@ -4,6 +4,8 @@ description: Set up an Explainer Studio workspace (Remotion project, scripts, re
 argument-hint: "[target folder, default ./explainer-studio-workspace]"
 ---
 
+Read [host compatibility guidance](../../HOSTS.md) before running this workflow.
+
 # Set up the Explainer Studio workspace
 
 The workspace template is in the `template/` folder next to this SKILL.md (this skill's base
@@ -33,5 +35,5 @@ directory). Copy it, install, and prove a render works.
 7. Market: the workspace defaults to the UK (`"market": "uk"` in `studio.json`); ask only if the
    user mentioned another audience, and set it.
 8. Tell the user: where the workspace is, what passed or is missing, and how to start:
-   `/explainer-studio:new-video <topic>` (run Claude Code from the workspace folder so its
-   CLAUDE.md loads), plus `npm run studio` for the live preview.
+   the `new-video` skill with a topic (open Claude Code or Codex in the workspace folder
+   so its workspace instructions load), plus `npm run studio` for the live preview.

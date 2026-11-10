@@ -3,6 +3,8 @@ name: scenes
 description: Write the Remotion scene code (projects/<slug>/Video.tsx) for an explainer video from timed-beats.json using the src/lib components, and register it. Use for the animation/scene stage or when changing how a beat looks or moves.
 ---
 
+Read [host compatibility guidance](../../HOSTS.md) before running this workflow.
+
 # Scenes
 
 Read `timed-beats.json`, `beats.json`, `style.json`, `src/lib/index.ts` (component list and doc

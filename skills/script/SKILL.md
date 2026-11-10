@@ -3,6 +3,8 @@ name: script
 description: Write the narration script for an explainer video from research.md, following the channel formula arcs and word budget. Use for the script stage or when asked to write or rewrite a video script.
 ---
 
+Read [host compatibility guidance](../../HOSTS.md) before running this workflow.
+
 # Script
 
 Read `markets/<market>/market.md` (audience, language, hooks, arcs, legal care) and

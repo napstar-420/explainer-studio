@@ -3,6 +3,8 @@ name: qc
 description: Render a draft of an explainer video and review it frame by frame against the beat sheet, then fix and re-render. Use for the QC stage or when asked to check, review or polish a rendered video.
 ---
 
+Read [host compatibility guidance](../../HOSTS.md) before running this workflow.
+
 # Draft and QC
 
 1. `npx remotion render src/index.ts <slug> out/<slug>-draft.mp4 --scale=0.5`.

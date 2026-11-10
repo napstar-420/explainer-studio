@@ -3,6 +3,8 @@ name: beats
 description: Turn an explainer script into projects/<slug>/beats.json (one beat per sentence with title, metaphor, props, camera, motion cues). Use for the beat-sheet stage or when asked to plan shots for a video.
 ---
 
+Read [host compatibility guidance](../../HOSTS.md) before running this workflow.
+
 # Beat sheet
 
 Read `script.md`, `markets/<market>/market.md` (settings, characters, extra metaphors),

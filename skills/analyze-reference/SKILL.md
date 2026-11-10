@@ -4,6 +4,8 @@ description: Break down a reference video (frames every second, contact sheets, 
 argument-hint: "<path to video> [name]"
 ---
 
+Read [host compatibility guidance](../../HOSTS.md) before running this workflow.
+
 # Analyse a reference video
 
 Work in the workspace. Name = `$ARGUMENTS` second word or a slug from the file name.

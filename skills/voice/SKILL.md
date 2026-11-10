@@ -3,6 +3,8 @@ name: voice
 description: Create the narration audio, word timings and timed beats for an explainer video (tts.mjs, words.py, timing.mjs). Use for the voice-over stage or when the script or voice changes.
 ---
 
+Read [host compatibility guidance](../../HOSTS.md) before running this workflow.
+
 # Voice and timing
 
 0. `node scripts/set-voice.mjs --status --json`. If `chosen` is false and a provider is
